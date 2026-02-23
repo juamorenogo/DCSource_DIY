@@ -58,6 +58,8 @@ Debido a la naturaleza del proyecto, el equipo no trata ni almacena ningún dato
 * Costos.
 * Riesgos.
 
+## Costos:
+Se establece como limite de presupuesto inicial 800,000$ pesos colombianos.
 #### V1_0
 
 * Diagrama de bloques.

@@ -10,4 +10,3 @@ Integrantes del grupo:
 ---
 
 ## Generalidades del proyecto:
-
