@@ -6,7 +6,7 @@ En esta carpeta, se dispone todo documento que haga parte del diseño y formulac
 
 * Motivación del proyecto.
 * Relacion con objetivos ODS.
-* Requerimientos.
+* Requerimientos.a
 * Restricciones.
 * Costos.
 * Riesgos.
