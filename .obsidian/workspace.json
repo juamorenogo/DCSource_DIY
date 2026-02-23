@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formulacion del proyecto/README.md",
+                "file": "Formulacion del proyecto/V1_0/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -241,11 +241,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f4b5a36fc5491f07",
+  "active": "4dc0632ea25c054f",
   "lastOpenFiles": [
+    "Formulacion del proyecto/README.md",
     "Formulacion del proyecto/EstructuracionInicial",
     "Formulacion del proyecto/V1_0/README.md",
-    "Formulacion del proyecto/README.md",
     "Formulacion del proyecto/V1_0",
     "Untitled 1",
     "Diseño Electronico/Untitled",
