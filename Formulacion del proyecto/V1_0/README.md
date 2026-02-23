@@ -1,0 +1,1 @@
+# Planteamiento inicial del proyecto. 

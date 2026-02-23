@@ -55,7 +55,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño Electronico/README.md",
+                "file": "Formulacion del proyecto/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "4dc0632ea25c054f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formulacion del proyecto/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -223,15 +237,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "18c655225ed6a009",
+  "active": "f4b5a36fc5491f07",
   "lastOpenFiles": [
-    "README.md",
-    "Diseño Electronico/README.md",
-    "Documentacion/README.md",
+    "Formulacion del proyecto/EstructuracionInicial",
+    "Formulacion del proyecto/V1_0/README.md",
     "Formulacion del proyecto/README.md",
+    "Formulacion del proyecto/V1_0",
+    "Untitled 1",
+    "Diseño Electronico/Untitled",
+    "Imgs",
+    "Documentacion/README.md",
+    "Diseño Electronico/README.md",
+    "README.md",
     "Formulacion del proyecto",
     "Diseño Electronico",
     "Documentacion"
