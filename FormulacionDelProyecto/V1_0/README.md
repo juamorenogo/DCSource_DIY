@@ -20,7 +20,7 @@ En primer lugar, es necesario tener las siguientes consideraciones adicionales a
 
 Diagrama de bloques general V1.0:
 
-![Diagrama de bloques](Imgs/DiagramaBloques.png)
+![Diagrama de bloques](Imgs/Bloques2.png)
 ## Control analógico y digital
 
 Se deberá tener un control mixto. El control digital se encargara de:
