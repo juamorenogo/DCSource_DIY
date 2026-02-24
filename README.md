@@ -9,4 +9,4 @@ Integrantes del grupo:
 
 ---
 
-Generalidades del proyecto:
+## Generalidades del proyecto:
