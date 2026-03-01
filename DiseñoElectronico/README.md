@@ -15,3 +15,9 @@ Actualmente, cada versión cuenta con los siguientes cambios:
 A
 
 ---
+
+### V1.2
+
+B
+
+---

@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiseñoElectronico/V1_1/AislamientoGalvanico/README.md",
+                "file": "DiseñoElectronico/V1_1/ProteccionesAC/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -271,31 +271,32 @@
   },
   "active": "2ff847bd9934b621",
   "lastOpenFiles": [
+    "Documentacion/Docs_V1_1/EMIFilter/MEE7-EMI Filter Design.pdf",
+    "Documentacion/Docs_V1_1/EMIFilter/MEE7-EMI Filter Design.pdf.crdownload",
+    "DiseñoElectronico/V1_1/AislamientoGalvanico/README.md",
+    "DiseñoElectronico/README.md",
+    "Documentacion/Libros",
+    "Documentacion/Docs_V1_1/ACProtection",
+    "Documentacion/Docs_V1_1/EMIFilter",
+    "Documentacion/Docs_V1_1",
+    "DiseñoElectronico/V1_1/README.md",
     "DiseñoElectronico/V1_2/SensadoAnalogico/README.md",
     "DiseñoElectronico/V1_2/InterfazDigital/README.md",
     "DiseñoElectronico/V1_1/ProteccionesDC/README.md",
     "DiseñoElectronico/V1_1/ProteccionesAC/README.md",
     "README.md",
-    "DiseñoElectronico/V1_1/AislamientoGalvanico/README.md",
-    "DiseñoElectronico/V1_1/README.md",
     "Documentacion/Datasheets",
     "DiseñoElectronico/V1_2/README.md",
     "DiseñoElectronico/V1_2/InterfazDigital",
     "DiseñoElectronico/V1_2",
     "DiseñoElectronico/V1_2/SensadoAnalogico",
     "DiseñoElectronico/V1_1/AislamientoGalvanico",
-    "DiseñoElectronico/V1_1/ProteccionesDC",
-    "DiseñoElectronico/V1_1/ProteccionesAC",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/README.md",
-    "DiseñoElectronico/README.md",
     "FormulacionDelProyecto/EstructuraFormalDelProyecto/README.md",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png",
-    "DiseñoElectronico/V1_1",
     "Documentacion/README.md",
     "FormulacionDelProyecto/V1_0/Bloques2.png",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/DiagramaBloques.png",
-    "DiagramaBloques 1.png",
-    "FormulacionDelProyecto/EstructuraFormalDelProyecto",
-    "FormulacionDelProyecto/V1_0_DiagramaDeBloques"
+    "DiagramaBloques 1.png"
   ]
 }
