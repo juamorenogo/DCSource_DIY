@@ -1,7 +1,19 @@
-# Aislamiento Galvánico 
+# Protecciones en entrada AC
 
 
 ## Fusible
 
-La primera proteccion de todo sistema suele venir desde un simple fusil.
+La primera protección de todo sistema suele venir desde un simple fusil.
+
+---
+
+## MOV 
+
+
+
+---
+
+## NTC
+
+---
 
