@@ -20,7 +20,7 @@ En primer lugar, es necesario tener las siguientes consideraciones adicionales a
 
 Diagrama de bloques general V1.0:
 
-![Diagrama de bloques](FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png)
+![Diagrama de bloques](https://github.com/juamorenogo/DCSource_DIY/blob/ad5b0320c012a447ba88efa96614eb0f30d0e035/FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png)
 ## Control analógico y digital
 
 Se deberá tener un control mixto. El control digital se encargara de:
