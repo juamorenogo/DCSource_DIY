@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiseñoElectronico/V1_1/README.md",
+                "file": "DiseñoElectronico/V1_1/AislamientoGalvanico/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -271,8 +271,15 @@
   },
   "active": "2ff847bd9934b621",
   "lastOpenFiles": [
-    "DiseñoElectronico/V1_2/README.md",
+    "DiseñoElectronico/V1_2/SensadoAnalogico/README.md",
+    "DiseñoElectronico/V1_2/InterfazDigital/README.md",
+    "DiseñoElectronico/V1_1/ProteccionesDC/README.md",
+    "DiseñoElectronico/V1_1/ProteccionesAC/README.md",
+    "README.md",
+    "DiseñoElectronico/V1_1/AislamientoGalvanico/README.md",
     "DiseñoElectronico/V1_1/README.md",
+    "Documentacion/Datasheets",
+    "DiseñoElectronico/V1_2/README.md",
     "DiseñoElectronico/V1_2/InterfazDigital",
     "DiseñoElectronico/V1_2",
     "DiseñoElectronico/V1_2/SensadoAnalogico",
@@ -283,14 +290,12 @@
     "DiseñoElectronico/README.md",
     "FormulacionDelProyecto/EstructuraFormalDelProyecto/README.md",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png",
-    "README.md",
     "DiseñoElectronico/V1_1",
     "Documentacion/README.md",
     "FormulacionDelProyecto/V1_0/Bloques2.png",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/DiagramaBloques.png",
     "DiagramaBloques 1.png",
     "FormulacionDelProyecto/EstructuraFormalDelProyecto",
-    "FormulacionDelProyecto/V1_0_DiagramaDeBloques",
-    "Untitled 1"
+    "FormulacionDelProyecto/V1_0_DiagramaDeBloques"
   ]
 }
