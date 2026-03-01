@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DiseñoElectronico/README.md",
+                "file": "FormulacionDelProyecto/V1_0_DiagramaDeBloques/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -257,11 +257,11 @@
   },
   "active": "77e4bf3b358f1f8b",
   "lastOpenFiles": [
+    "DiseñoElectronico/README.md",
     "DiseñoElectronico/V1_1/README.md",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/README.md",
     "FormulacionDelProyecto/EstructuraFormalDelProyecto/README.md",
     "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png",
-    "DiseñoElectronico/README.md",
     "README.md",
     "DiseñoElectronico/V1_1",
     "Documentacion/README.md",
