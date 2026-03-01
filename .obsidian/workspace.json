@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FormulacionDelProyecto/EstructuracionInicial/README.md",
+                "file": "FormulacionDelProyecto/EstructuraFormalDelProyecto/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FormulacionDelProyecto/V1_1/README.md",
+                "file": "DiseñoElectronico/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -257,22 +257,22 @@
   },
   "active": "77e4bf3b358f1f8b",
   "lastOpenFiles": [
-    "FormulacionDelProyecto/EstructuracionInicial/README.md",
-    "FormulacionDelProyecto/V1_1/README.md",
-    "README.md",
+    "DiseñoElectronico/V1_1/README.md",
+    "FormulacionDelProyecto/V1_0_DiagramaDeBloques/README.md",
+    "FormulacionDelProyecto/EstructuraFormalDelProyecto/README.md",
+    "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png",
     "DiseñoElectronico/README.md",
-    "FormulacionDelProyecto/V1_1",
+    "README.md",
+    "DiseñoElectronico/V1_1",
     "Documentacion/README.md",
-    "FormulacionDelProyecto/V1_0/README.md",
-    "FormulacionDelProyecto/V1_0/Imgs/Bloques2.png",
     "FormulacionDelProyecto/V1_0/Bloques2.png",
-    "FormulacionDelProyecto/V1_0/Imgs/DiagramaBloques.png",
+    "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/DiagramaBloques.png",
     "DiagramaBloques 1.png",
-    "FormulacionDelProyecto/EstructuracionInicial",
-    "FormulacionDelProyecto/V1_0",
+    "FormulacionDelProyecto/EstructuraFormalDelProyecto",
+    "FormulacionDelProyecto/V1_0_DiagramaDeBloques",
     "Untitled 1",
     "Diseño Electronico/Untitled",
-    "FormulacionDelProyecto/V1_0/Imgs",
+    "FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs",
     "FormulacionDelProyecto",
     "DiseñoElectronico",
     "Documentacion"

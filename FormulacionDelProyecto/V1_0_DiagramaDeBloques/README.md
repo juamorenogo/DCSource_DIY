@@ -20,7 +20,7 @@ En primer lugar, es necesario tener las siguientes consideraciones adicionales a
 
 Diagrama de bloques general V1.0:
 
-![Diagrama de bloques](Imgs/Bloques2.png)
+![Diagrama de bloques](FormulacionDelProyecto/V1_0_DiagramaDeBloques/Imgs/Bloques2.png)
 ## Control analógico y digital
 
 Se deberá tener un control mixto. El control digital se encargara de:
@@ -30,6 +30,6 @@ Se deberá tener un control mixto. El control digital se encargara de:
 Para la parte de control analógico, se encargara del sensado y ejecución de los lazos. Se propone un diagrama de bloques general para control y sensado general:
 
 Se selecciona como microcontrolador el PIC16F17556, principalmente debido al ADC con una resolución de 12 bits, adicionalmente los 28 pins que posee el controlador permite conectar el teclado matricial, pantalla y botones de encendido y selección de la modalidad.
-## Topologías que tienen aislamiento galvánico
+
 
 
