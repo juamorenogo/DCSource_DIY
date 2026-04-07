@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "promptDelete": false
 }
