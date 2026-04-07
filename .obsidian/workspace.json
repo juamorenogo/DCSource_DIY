@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "effd7dfedab3264a",
+    "type": "split",
+    "children": [
+      {
+        "id": "52bdf00e49057e2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "302be9f5747f1f3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b590f209f8aaae50",
+    "type": "split",
+    "children": [
+      {
+        "id": "025628de08144aa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4b5a36fc5491f07",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c34fb94dbc855692",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1bc50b9f41857044",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eeba2402c02668bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "f595801f04b1eacf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36d590e544878be1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diseño Electronico/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "11f0411789e5beaa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diseño Electronico/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "d47d26c823d225c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0ff519aaa706ece1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "77ca6b7f7b813d19",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diseño Electronico/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "302be9f5747f1f3c",
+  "lastOpenFiles": [
+    "Formulacion-del-proyecto/README.md",
+    "Formulacion-del-proyecto/Imgs/DiagramaBloques.png",
+    "Formulacion-del-proyecto/Imgs/Bloques2.png",
+    "Formulacion-del-proyecto/V1_0_DiagramaDeBloques/README.md",
+    "README.md",
+    "Diseño-electronico/README.md",
+    "Documentacion/README.md",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/tidueq2.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/ST_Wurth_Seminar_Paris_2018_Presentation.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/HP_AN90B.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/slyt665.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/dee0010.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/an1262-offline-flyback-converters-design-methodology-with-the-l6590-family-stmicroelectronics.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/AN1045.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes/0724-BRD8202-Offline-Switched-Mode-Power-Supply-SMPS.pdf",
+    "Documentacion/Docs-generales/Diseño-general-de-fuentes",
+    "Documentacion/Docs-generales/AN-generales/Diseño-general-de-fuentes/ST_Wurth_Seminar_Paris_2018_Presentation.pdf",
+    "Diseño-electronico/Bloques-individuales/Potencia-entrada/Filtro-EMI/README.md",
+    "Diseño-electronico/Bloques-individuales/Potencia-entrada/Protecciones-AC/README.md",
+    "Diseño-electronico/Bloques-individuales/Potencia-entrada/Aislamiento-Galvanico/README.md",
+    "Diseño-electronico/Bloques-individuales/Interfaz-digital/Microcontrolador/README.md",
+    "Diseño-electronico/Bloques-individuales/Interfaz-digital/Interfaz/README.md",
+    "Diseño-electronico/Bloques-individuales/Control/Analogico/README.md",
+    "Diseño-electronico/Bloques-individuales/Control/Digital/README.md",
+    "Diseño-electronico/Bloques-individuales/Interfaz-digital/DAC/README.md",
+    "Diseño-electronico/Bloques-individuales/Potencia-Salida/README.md",
+    "Diseño-electronico/Bloques-individuales/Sensado-analogico/README.md",
+    "Diseño-electronico/Bloques-individuales/Interfaz-digital/README.md",
+    "Diseño-electronico/Bloques-individuales/Conversor-de-potencia/README.md",
+    "Diseño-electronico/Bloques-individuales/Control/README.md",
+    "Diseño-electronico/Bloques-individuales/README.md",
+    "Diseño-electronico/Diseño-principal/Esquematicos-generales/V1-0/README.md",
+    "Diseño-electronico/Diseño-principal/PCBs/README.md",
+    "Diseño-electronico/Diseño-principal/Esquematicos-generales/README.md",
+    "Diseño-electronico/Diseño-principal/README.md",
+    "Diseño-electronico/V1_2/README.md",
+    "Diseño-electronico/V1_2/Sensado-analogico/README.md",
+    "FormulacionDelProyecto/V1_0/Bloques2.png",
+    "DiagramaBloques 1.png"
+  ]
+}
