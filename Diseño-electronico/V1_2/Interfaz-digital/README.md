@@ -1,1 +1,1 @@
-# Aislamiento Galvánico 
+# Elementos utilizados
