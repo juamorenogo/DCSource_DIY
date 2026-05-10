@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "52bdf00e49057e2a",
+        "id": "2dafaeac63415446",
         "type": "tabs",
         "children": [
           {
-            "id": "302be9f5747f1f3c",
+            "id": "9587cd006a5d47db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseño-electronico/Bloques-individuales/Sensado-analogico/Sensado-corriente.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sensado-corriente"
-            }
-          },
-          {
-            "id": "9207f3de2644cee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diseño-electronico/Bloques-individuales/Sensado-analogico/Sensado-voltaje.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sensado-voltaje"
-            }
-          },
-          {
-            "id": "9c3746277c9d4ca5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diseño-electronico/Bloques-individuales/Sensado-analogico/Sensado-voltaje.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sensado-voltaje"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,50 +184,49 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9c3746277c9d4ca5",
+  "active": "9587cd006a5d47db",
   "lastOpenFiles": [
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Sensado-corriente.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/README.md",
-    "Diseño-electronico/Bloques-individuales/README.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Sensado-voltaje.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Ajustes para lazo de control",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/README.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Circuitos-de-Sensado",
+    "Design-PDF-document.pdf",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Microcontrolador/README.md",
+    "Doc-latex-Organizacion..md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Interfaz/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/DAC/README.md",
     "Diseño-electronico/README.md",
-    "Diseño-electronico/Diseño-principal/README.md",
+    "Diseño-electronico/V1_1/README.md",
+    "Diseño-electronico/V1_1/Protecciones-DC/README.md",
+    "Diseño-electronico/V1_1/Protecciones-AC/README.md",
+    "Diseño-electronico/V1_1/Aislamiento-galvanico/README.md",
+    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Sensado-voltaje.md",
+    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Sensado-corriente.md",
     "README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/03_Fuentes-de-Alimentacion",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/Interfaz/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/Microcontrolador/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/DAC/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/Interfaz",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/Microcontrolador",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital/DAC",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/01_Interfaz-digital",
+    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/README.md",
+    "Diseño-electronico/Diseño-bloques-individuales/README.md",
+    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Ajustes para lazo de control",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/00_Sensado-analogico/README.md",
+    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Circuitos-de-Sensado",
+    "Diseño-electronico/Sintesis-Diseño/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/03_Fuentes-de-Alimentacion",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Interfaz",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Microcontrolador",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/DAC",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs/F2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs/F1.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/00_Sensado-analogico",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/Imgs/F2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/Imgs/F1.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/Imgs",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Potencia-Salida/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Potencia-entrada/Filtro-EMI/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Potencia-entrada/Protecciones-AC/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Potencia-entrada/Aislamiento-Galvanico/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-Salida/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-entrada/Filtro-EMI/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-entrada/Protecciones-AC/README.md",
+    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-entrada/Aislamiento-Galvanico/README.md",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Interfaz-digital/Microcontrolador/README.md",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Interfaz-digital/Interfaz/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Interfaz-digital/DAC/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Interfaz-digital/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Conversor-de-potencia/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Control/Digital/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Control/CC-CV/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Control/Analogico/README.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Imgs/F2.png",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Imgs/F1.png",
+    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Imgs/F2.png",
+    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Imgs/F1.png",
     "Formulacion-del-proyecto/Imgs/DiagramaBloques.png",
     "Formulacion-del-proyecto/Imgs/Bloques2.png",
     "FormulacionDelProyecto/V1_0/Bloques2.png",

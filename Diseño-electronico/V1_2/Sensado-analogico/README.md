@@ -1,1 +1,0 @@
-# Aislamiento Galvánico 
