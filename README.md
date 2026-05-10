@@ -2,8 +2,8 @@
 
 ---
 
-Proyecto de Diseño de Sistemas Electrónicos / 2026-1
-Integrantes del grupo:
+Electronic design project / UNAL / 2026-1
+Project made by:
 * Juan Sebastian Moreno Gonzalez
 * Nicolás Prieto Solano
 

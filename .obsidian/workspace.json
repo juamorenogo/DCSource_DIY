@@ -23,12 +23,14 @@
             "id": "aa2d01ee48cfc692",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Design-PDF-document.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Design-PDF-document"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -197,6 +199,7 @@
   },
   "active": "aa2d01ee48cfc692",
   "lastOpenFiles": [
+    "Design-PDF-document.pdf",
     "Electronic-design/General-Design/Squematics/01_Digital-interface/Microcontrolador/README.md",
     "Electronic-design/General-Design/PCB/01_Digital-interface/Microcontrolador/README.md",
     "Electronic-design/General-Design/PCB/01_Digital-interface/Interfaz/README.md",
@@ -234,7 +237,6 @@
     "Electronic-design/Stage-by-stage-design/01_Digital-interface/Microcontrolador/README.md",
     "Electronic-design/Stage-by-stage-design/Sensado-analogico/Imgs/F1.png",
     "Electronic-design/Stage-by-stage-design/01_Digital-interface/Interfaz/README.md",
-    "Electronic-design/Stage-by-stage-design/01_Digital-interface/DAC/README.md",
     "Design-specs/Imgs/Bloques2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs/F2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs/F1.png",
