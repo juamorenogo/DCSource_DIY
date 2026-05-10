@@ -11,17 +11,28 @@
             "id": "9587cd006a5d47db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "General-documentation/IEC_62368_1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-file-text",
+              "title": "IEC_62368_1"
+            }
+          },
+          {
+            "id": "aa2d01ee48cfc692",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Design-PDF-document.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Design-PDF-document"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,51 +195,52 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9587cd006a5d47db",
+  "active": "aa2d01ee48cfc692",
   "lastOpenFiles": [
-    "Design-PDF-document.pdf",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Microcontrolador/README.md",
-    "Doc-latex-Organizacion..md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Interfaz/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/DAC/README.md",
-    "Diseño-electronico/README.md",
-    "Diseño-electronico/V1_1/README.md",
-    "Diseño-electronico/V1_1/Protecciones-DC/README.md",
-    "Diseño-electronico/V1_1/Protecciones-AC/README.md",
-    "Diseño-electronico/V1_1/Aislamiento-galvanico/README.md",
-    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Sensado-voltaje.md",
-    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Sensado-corriente.md",
+    "Electronic-design/General-Design/Squematics/01_Digital-interface/Microcontrolador/README.md",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/Microcontrolador/README.md",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/Interfaz/README.md",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/DAC/README.md",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/README.md",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/Microcontrolador",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/Interfaz",
+    "Electronic-design/General-Design/PCB/01_Digital-interface/DAC",
+    "Electronic-design/General-Design/PCB/01_Digital-interface",
+    "Electronic-design/General-Design/PCB/00_DC-DC_Converter/README.md",
+    "Electronic-design/General-Design/PCB/00_DC-DC_Converter/1.0",
+    "Electronic-design/General-Design/PCB/00_DC-DC_Converter",
+    "Electronic-design/General-Design/PCB/02_Power-supplies",
+    "Electronic-design/General-Design/Squematics/01_Digital-interface/Interfaz/README.md",
+    "Electronic-design/General-Design/Squematics/01_Digital-interface/DAC/README.md",
+    "Electronic-design/General-Design/PCB/Untitled.md",
     "README.md",
-    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/README.md",
-    "Diseño-electronico/Diseño-bloques-individuales/README.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Ajustes para lazo de control",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/00_Sensado-analogico/README.md",
-    "Diseño-electronico/Bloques-individuales/Sensado-analogico/Circuitos-de-Sensado",
-    "Diseño-electronico/Sintesis-Diseño/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/03_Fuentes-de-Alimentacion",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Interfaz",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/Microcontrolador",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital/DAC",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/01_Interfaz-digital",
+    "Electronic-design/General-Design/Squematics/00_DC-DC/README.md",
+    "Electronic-design/General-Design/Squematics/00_DC-DC/1.0",
+    "Prototype-testing/README.md",
+    "Prototype-testing/Untitled.md",
+    "General-documentation/IEC_62368_1.pdf",
+    "General-documentation/Docs-used-for-initial-PDF/Cited-bib/tidub90a.pdf",
+    "Electronic-design/General-Design/Squematics/Potencia-entrada/Filtro-EMI/README.md",
+    "Electronic-design/General-Design/Squematics/Potencia-entrada/Protecciones-AC/README.md",
+    "Electronic-design/General-Design/Squematics/Potencia-entrada/Aislamiento-Galvanico/README.md",
+    "Electronic-design/General-Design/Squematics/Control/Analogico/README.md",
+    "Electronic-design/General-Design/Squematics/Control/Digital/README.md",
+    "Electronic-design/General-Design/Squematics/Control/CC-CV/README.md",
+    "Electronic-design/General-Design/Squematics/Potencia-Salida/README.md",
+    "Electronic-design/General-Design/Squematics/Control/README.md",
+    "Electronic-design/General-Design/Squematics/01_Digital-interface/README.md",
+    "Electronic-design/General-Design/Squematics/Sensado-analogico/README.md",
+    "Electronic-design/Stage-by-stage-design/Sensado-analogico/Imgs/F2.png",
+    "Electronic-design/Stage-by-stage-design/01_Digital-interface/Microcontrolador/README.md",
+    "Electronic-design/Stage-by-stage-design/Sensado-analogico/Imgs/F1.png",
+    "Electronic-design/Stage-by-stage-design/01_Digital-interface/Interfaz/README.md",
+    "Electronic-design/Stage-by-stage-design/01_Digital-interface/DAC/README.md",
+    "Design-specs/Imgs/Bloques2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs/F2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs/F1.png",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/00_Sensado-analogico/Imgs",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/00_Sensado-analogico",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/Imgs/F2.png",
     "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/Imgs/F1.png",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Sensado-analogico/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-Salida/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-entrada/Filtro-EMI/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-entrada/Protecciones-AC/README.md",
-    "Diseño-electronico/Sintesis-Diseño/Esquematicos-generales/Potencia-entrada/Aislamiento-Galvanico/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Interfaz-digital/Microcontrolador/README.md",
-    "Diseño-electronico/Diseño-principal/Esquematicos-generales/Interfaz-digital/Interfaz/README.md",
-    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Imgs/F2.png",
-    "Diseño-electronico/Diseño-bloques-individuales/Sensado-analogico/Imgs/F1.png",
-    "Formulacion-del-proyecto/Imgs/DiagramaBloques.png",
-    "Formulacion-del-proyecto/Imgs/Bloques2.png",
+    "Design-specs/Imgs/DiagramaBloques.png",
     "FormulacionDelProyecto/V1_0/Bloques2.png",
     "DiagramaBloques 1.png"
   ]
