@@ -1,0 +1,60 @@
+* D:\GITHUB\GitHub\DCSource_DIY\Electronic-design\Stage-by-stage-design\00_DC-DC_Converter\LTSpice-simulation\Sim_1.asc
+XU1 N011 N012 N015 N017 0 N013 N004 N018 UCC28C43_STEADY2
+V2 N007 N008 SINE(0 170 60)
+D1 N007 N001 D
+D2 N008 N001 D
+D3 N009 N007 D
+D4 N009 N008 D
+C1 N001 N009 C
+R1 N001 N004 R
+Q1 VRef N017 N019 0 NPN
+Q2 0 N010 N011 0 PNP
+C2 0 N010 C
+R2 N010 VRef R
+C3 N019 N020 C
+R3 N015 N020 R
+R4 N011 N012 R
+C4 N011 N012 C
+R5 VRef N017 R
+C6 N017 0 C
+XU2 N022 NC_01 N018 N023 NC_02 4N25
+R6 N023 0 R
+R8 N016 N015 R
+R9 N018 N015 R
+C5 N015 0 C
+R7 N023 N012 R
+M1 N003 N014 N016 N016 NMOS
+R10 N014 N013 R
+R11 0 N014 R
+R12 N016 0 R
+C7 N018 0 C
+L1 N001 N003 L
+L2 N006 0 L
+L3 N002 COM L
+R13 N006 N005 R
+D5 N005 N004 D
+C8 N004 0 C
+C9 0 N004 C
+D6 0 N004 UDZV10B
+D7 N002 Vout D
+C10 Vout COM C
+R14 Vout N022 R
+R15 Vout N021 R
+D8 0 N021 D
+R16 Vout N025 R
+R17 N024 N021 R
+C11 N025 N024 C
+.model D D
+.lib C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 10m
+.include UCC28C43_LTspice_Compatible_v2.lib
+.lib 4N25.sub
+.lib C:\Users\Sebastian\Documents\Github\DCSource_DIY\Electronic-design\Stage-by-stage-design\00_DC-DC_Converter\LTSpice-simulation\UCC28C43_LTspice_Compatible_v2.lib
+.backanno
+.end
