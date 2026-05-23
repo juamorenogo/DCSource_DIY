@@ -2,10 +2,10 @@ Version 4
 SymbolType BLOCK
 RECTANGLE Normal -80 -72 80 72
 WINDOW 0 0 -72 Bottom 2
-SYMATTR Prefix X
-SYMATTR Value UCC28C43_STEADY
-SYMATTR ModelFile C:\Users\Sebastian\Documents\Github\DCSource_DIY\Electronic-design\Stage-by-stage-design\00_DC-DC_Converter\LTSpice-simulation\UCC28C43_LTspice_Compatible.lib
 WINDOW 3 0 72 Top 2
+SYMATTR Prefix X
+SYMATTR Value UCC28C43_STEADY2
+SYMATTR ModelFile D:\GITHUB\GitHub\DCSource_DIY\Electronic-design\Stage-by-stage-design\00_DC-DC_Converter\LTSpice-simulation\UCC28C43_LTspice_Compatible_v2.lib
 PIN -80 -48 LEFT 8
 PINATTR PinName COMP
 PINATTR SpiceOrder 1

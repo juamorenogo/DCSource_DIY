@@ -1,0 +1,84 @@
+* D:\GITHUB\GitHub\DCSource_DIY\Electronic-design\Stage-by-stage-design\00_DC-DC_Converter\LTSpice-simulation\TestSim_1.asc
+V2 N008 N009 SINE(0 170 60)
+D1 N008 N002 1N4007
+D2 N009 N002 1N4007
+D3 0 N008 1N4007
+D4 0 N009 1N4007
+C1 N002 0 440µ
+R1 N002 N005 100k
+Q1 VRef N018 N019 0 NPN
+Q2 0 N010 N011 0 PNP
+C2 0 N010 1µ
+R2 N010 VRef 6.67k
+C3 N019 N020 10n
+R3 N015 N020 24.9K
+R4 N011 N012 10k
+C4 N011 N012 10n
+R5 VRef N018 8k
+C6 N018 0 2.2n
+XU2 N022 N021 VRef N023 NC_01 4N25
+R6 N023 0 1k
+R8 N017 N015 3.8k
+R9 VRef N015 100
+C5 N015 0 100p
+R7 N023 N012 4.99k
+M1 N004 N014 N017 N017 STD12N50DM2_AB
+R10 N014 N013 10
+R11 0 N014 10k
+R12 N017 0 0.75
+C7 VRef 0 0.1µ
+L1 N002 N004 4.2m
+L2 N007 0 11.28µ
+L3 N003 GND2 61.43µ
+R13 N007 N006 22
+D5 N006 N005 MURS120
+C8 N005 0 120µ
+C9 0 N005 0.1µ
+D6 0 N005 D815J
+D7 N003 Vout MBR745
+C10 Vout GND2 579µ
+R14 Vout N022 1.3k
+R15 Vout N021 1k
+D8 GND2 N021 D814V
+R16 Vout N025 9.53k
+R17 N024 N021 88.7
+C11 N025 N024 0.01µ
+R18 N025 GND2 2.49k
+C12 N001 N002 10n
+R19 N001 N002 50k
+D9 N002 N001 BYW96E
+D10 N010 VRef D
+XU3 GND2 N021 N025 TL431
+XU1 N011 N012 N015 N018 0 N013 N016 VRef UCC28C43_STEADY2
+R20 Vout GND2 1Meg
+R21 GND2 0 1Meg
+V1 N016 0 15
+R22 N003 GND2 100k
+.model D D
+.lib C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\User\AppData\Local\LTspice\lib\cmp\standard.mos
+* Lazo de sensado a la salida
+* Entrada AC --> Rectificacion con C Bulk
+* VDD para IC
+* Flyback
+* Secundario y Salida DC
+* IC driver
+* VDD
+* Library
+* Resistencias como posibles trimmers:\nR10\nR13\nR2
+* Revisar como calcular:\n \nC3 y R3\nC12 y R19
+.lib FirstOrdergenericSCR.lib
+K1 L1 L2 L3 0.99
+* Configuracion de Simulacion
+.option noopiter
+.tran 0 200m startup
+.lib 4N25.sub
+.lib D:\GITHUB\GitHub\DCSource_DIY\Electronic-design\Stage-by-stage-design\00_DC-DC_Converter\LTSpice-simulation\UCC28C43_LTspice_Compatible_v2.lib
+.lib TL431.mod
+.backanno
+.end
