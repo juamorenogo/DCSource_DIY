@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC38C43DGKR
+D BiCMOS Low-Power Current Mode PWM Controller
+K
+F http://www.ti.com/lit/gpn/UCC38C43
+$ENDCMP
+#
+#End Doc Library

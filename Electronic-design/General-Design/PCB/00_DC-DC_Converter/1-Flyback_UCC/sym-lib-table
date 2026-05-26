@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UCC38C43DGKR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/UCC38C43DGKR.kicad_sym")(options "")(descr ""))
+)
