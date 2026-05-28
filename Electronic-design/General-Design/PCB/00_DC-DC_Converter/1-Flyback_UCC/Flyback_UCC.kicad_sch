@@ -7812,15 +7812,15 @@
 	(symbol
 		(lib_id "Device:R_Variable_US")
 		(at 147.32 97.79 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5e87bb40-2219-405d-9dae-e47e09928415")
 		(property "Reference" "R8"
-			(at 147.2819 90.17 90)
+			(at 147.2819 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +7828,7 @@
 			)
 		)
 		(property "Value" "R_Variable_US"
-			(at 147.2819 92.71 90)
+			(at 147.2819 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 99.568 90)
+			(at 147.32 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)

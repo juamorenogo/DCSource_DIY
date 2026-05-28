@@ -1,0 +1,8 @@
+
+18LF25K22 Memory Summary:
+    Program space        used  2A66h ( 10854) of  8000h bytes   ( 33.1%)
+    Data space           used    B3h (   179) of   600h bytes   ( 11.7%)
+    Configuration bits   used     4h (     4) of     7h words   ( 57.1%)
+    EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
+    ID Location space    used     0h (     0) of     8h bytes   (  0.0%)
+
