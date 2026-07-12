@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "X_1_3FS-324")(type "KiCad")(uri "${KIPRJMOD}/Symbols/3FS-324.kicad_sym")(options "")(descr ""))
+  (lib (name "X_1_4300_0104")(type "KiCad")(uri "${KIPRJMOD}/Symbols/4300_0104.kicad_sym")(options "")(descr ""))
+  (lib (name "X_1_AMRM00101040150MA1")(type "KiCad")(uri "${KIPRJMOD}/Symbols/AMRM00101040150MA1.kicad_sym")(options "")(descr ""))
+  (lib (name "X_1_TPS54302DDCR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TPS54302DDCR.kicad_sym")(options "")(descr ""))
+  (lib (name "X_1_L7812CV")(type "KiCad")(uri "${KIPRJMOD}/Symbols/L7812CV.kicad_sym")(options "")(descr ""))
+  (lib (name "X_1_L7912CV")(type "KiCad")(uri "${KIPRJMOD}/Symbols/L7912CV.kicad_sym")(options "")(descr ""))
+)

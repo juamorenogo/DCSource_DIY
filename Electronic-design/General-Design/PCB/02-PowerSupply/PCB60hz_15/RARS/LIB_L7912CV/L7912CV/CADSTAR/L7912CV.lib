@@ -1,0 +1,16 @@
+.L7912CV :1 ;L7912CV, Linear Voltage Regulator, Negative 1.5A -12 V, 3-Pin TO-220
+TO255P460X1020X2008-3P
+*STM IC
+*NGS
+*PLB 1="GND" 2="IN" 3="OUT"
+*MXP 3
+*DFN L7912CV
+~!Mouser Part Number (511-L7912CV)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7912CV?qs=hprEbj%252BdINrTD2aXjPyteQ%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (L7912CV)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/l79.pdf)
+~!Height (4.6mm)
+~!3D_Model (L7912CV)
+L7912CV
+1.1!U 2.1!U 3.1!U 
