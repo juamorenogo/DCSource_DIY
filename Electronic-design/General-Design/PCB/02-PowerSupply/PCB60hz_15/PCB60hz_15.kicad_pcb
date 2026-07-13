@@ -143,7 +143,7 @@
 		(descr "DDC")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at 0 0 0)
+			(at 4.35 2.84 0)
 			(layer "F.SilkS")
 			(uuid "f5a030c0-9e88-4d03-877b-5ef9456fa9bd")
 			(effects
@@ -6409,7 +6409,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at -2.527621 -2.9 0)
+			(at 5.59 2.8 0)
 			(layer "F.SilkS")
 			(uuid "8afa4829-2478-40d2-94a4-05409c2a90a6")
 			(effects
