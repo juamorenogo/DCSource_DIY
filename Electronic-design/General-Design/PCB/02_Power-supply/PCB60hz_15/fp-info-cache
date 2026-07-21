@@ -1,4 +1,4 @@
-24748092748496940
+24749882670707903
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66240,6 +66240,13 @@ DIN rail adapter universal three M3 clearance holes
 0
 0
 0
+MountingHole
+GND_MountingHole
+Mounting Hole 2.2mm, M2, DIN965
+mounting hole 2.2mm m2 din965
+0
+1
+1
 MountingHole
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular

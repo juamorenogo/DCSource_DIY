@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L7912CV'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "L7912CV" (!) = "", "TO255P460X1020X2008-3P", "Transistor Outline, Vertical", "511-L7912CV", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7912CV?qs=hprEbj%252BdINrTD2aXjPyteQ%3D%3D", "L7912CV, Linear Voltage Regulator, Negative 1.5A -12 V, 3-Pin TO-220", "https://www.st.com/resource/en/datasheet/l79.pdf", "4.6 mm"
+END_PART
+
+END.

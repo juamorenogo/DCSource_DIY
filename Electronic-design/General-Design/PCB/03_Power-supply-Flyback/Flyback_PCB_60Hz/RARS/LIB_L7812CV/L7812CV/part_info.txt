@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L7812CV
+PartCategory=Integrated Circuit
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=4.2
+Released=2015-07-22 14:47:08
+Downloaded=2026-07-12 05:47:58
+3D=Y
