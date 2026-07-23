@@ -2057,62 +2057,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:4N35"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "F_1_DPC817L-A-TR:DPC817L-A-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.08 0)
+			(property "Reference" "IC"
+				(at 34.29 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "4N35"
-				(at 0 5.08 0)
+			(property "Value" "DPC817L-A-TR"
+				(at 34.29 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-				(at -5.08 -5.08 0)
+			(property "Footprint" "SOP254P1180X410-4N"
+				(at 34.29 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.mouser.mx/ProductDetail/Diodes-Incorporated/DPC817L-A-TR?qs=mELouGlnn3fKeXigB%252Bx6BQ%3D%3D"
+				(at 34.29 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN DC Optocoupler Base Connected"
+			(property "Description" "Transistor Output Optocouplers Photo Coupler SLM-4 T&R 2K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2121,19 +2108,60 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
+			(property "Height" "4.1"
+				(at 34.29 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "4N35_0_1"
+			(property "Mouser Part Number" ""
+				(at 34.29 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 34.29 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 34.29 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DPC817L-A-TR"
+				(at 34.29 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DPC817L-A-TR_1_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start 5.08 2.54)
+					(end 33.02 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2142,156 +2170,10 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.175 -2.54) (xy -3.175 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.508) (xy 0.635 0.508) (xy 0.254 0.381) (xy 0.254 0.635) (xy 0.635 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.508) (xy 0.635 -0.508) (xy 0.254 -0.635) (xy 0.254 -0.381) (xy 0.635 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -0.254) (xy 2.667 -2.286) (xy 2.667 -2.286)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -1.143) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -1.397) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -2.413) (xy 3.429 -1.905) (xy 3.175 -2.159) (xy 3.683 -2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54) (xy 1.905 -1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "4N35_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
+					(at 0 0 0)
+					(length 5.08)
+					(name "ANODE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2307,9 +2189,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CATHODE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2324,65 +2206,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "COLLECTOR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2397,65 +2224,73 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "EMMITER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:TL431LP"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "F_1_R46KI310050M1K:R46KI310050M1K"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "TL431LP"
-				(at 0 -2.54 0)
+			(property "Value" "R46KI310050M1K"
+				(at 8.89 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 0 -4.826 0)
+			(property "Footprint" "R46KI310050M1K"
+				(at 8.89 -96.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-				(at 0.508 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt Regulator, TO-92"
-				(at 0 -8.89 0)
+			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3093_R46_X2_275_110C"
+				(at 8.89 -196.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode device regulator shunt"
+			(property "Description" "R46 275 VAC, Film, Metallized Polypropylene, Safety, 0.1 uF, 10%, 275 VAC (X2), 560 VDC, 110C, 15mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2464,43 +2299,60 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO*92*"
-				(at 0 0 0)
+			(property "Height" "11.1"
+				(at 8.89 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "TL431LP_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+			(property "Mouser Part Number" "80-R46KI310050M1K"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/R46KI310050M1K/?qs=D0iH%252BVFiYPMp3c4CZzIXlA%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
+					(justify left top)
+					(hide yes)
 				)
+			)
+			(property "Manufacturer_Name" "Yageo Group"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "R46KI310050M1K"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "R46KI310050M1K_1_1"
 				(polyline
 					(pts
-						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+						(xy 5.08 0) (xy 5.588 0)
 					)
 					(stroke
 						(width 0.254)
@@ -2510,12 +2362,64 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "TL431LP_1_1"
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2530,9 +2434,125 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "F_1_TL431ACLPR:TL431ACLPR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TL431ACLPR"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TL431ACLPR"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/tl431"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "1% Accuracy Adjustable Precision Shunt Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.34"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TL431ACLPR"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL431ACLPR?qs=0le1rQK8zxqBxlVXkAYIwg%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TL431ACLPR"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TL431ACLPR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
+					(at 0 0 0)
+					(length 5.08)
 					(name "REF"
 						(effects
 							(font
@@ -2549,8 +2569,26 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
 					(name "K"
 						(effects
 							(font
@@ -2559,6 +2597,266 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "F_1_UCC38C43DR:UCC38C43DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "UCC38C43DR"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/UCC38C43"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments UCC38C43DR, PWM Current Mode Controller, 0.2 A, 1000 kHz 8-Pin SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-UCC38C43DR"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC38C43DR?qs=zqbRmZ%252BfZD8PGQXkq%2FjeEA%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UCC38C43DR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "UCC38C43DR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RT/CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3349,266 +3647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UCC38C43DGKR:UCC38C43DGKR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "UCC38C43DGKR"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOP65P490X110-8N"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/UCC38C43"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "BiCMOS Low-Power Current Mode PWM Controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-UCC38C43DGKR"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC38C43DGKR?qs=zqbRmZ%252BfZD%252BXDziCZUmxYw%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "UCC38C43DGKR"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "UCC38C43DGKR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "RT/CT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "X_1_4300_0104:4300.0104"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4137,15 +4175,35 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Anadir MOV y Capacitor de seguridad"
+	(text "Añadir Ferrita a la alimentacion\n"
 		(exclude_from_sim no)
-		(at 37.846 40.386 0)
+		(at 97.536 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e3cf78e-9b44-435c-8d97-600ded041e8c")
+	)
+	(text "Diseñar simbolo de MOV\n"
+		(exclude_from_sim no)
+		(at 53.34 37.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "85126acc-e4cf-4c6c-83cc-4b0757a3accc")
+	)
+	(text "Revisar Tierras. \nProbablemente la Tierra AC del flyback aislada.\nY gnd salida DC = gnd alimentacion\n\n"
+		(exclude_from_sim no)
+		(at 114.046 168.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d8c78a0-891d-44be-bd6b-8e19ea29eae3")
 	)
 	(text "Revisar que Diodos de rectificacion usar."
 		(exclude_from_sim no)
@@ -4186,6 +4244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0df2f560-9d45-4cbf-a489-331dfa74735f")
+	)
+	(junction
+		(at 113.03 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f17a9b4-4816-4c4b-ac32-5c5312b97dd9")
 	)
 	(junction
 		(at 36.83 77.47)
@@ -4246,12 +4310,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3de7459c-5d4a-4c72-8277-60e5bd9c17d6")
-	)
-	(junction
-		(at 113.03 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44d81015-20fd-4fbe-b14b-1ea104a5909e")
 	)
 	(junction
 		(at 73.66 93.98)
@@ -4392,6 +4450,12 @@
 		(uuid "db5efba4-8d8c-4436-adc8-576631e2acc6")
 	)
 	(junction
+		(at 40.64 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7690bf-eebe-4fce-a502-bd3be28e26ef")
+	)
+	(junction
 		(at 90.17 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4422,6 +4486,12 @@
 		(uuid "e97eb181-5f9d-4507-8967-80ab7da307dd")
 	)
 	(junction
+		(at 40.64 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eefd7eb0-033d-49f4-8ea5-d1846f40a846")
+	)
+	(junction
 		(at 207.01 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4432,10 +4502,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fabdd6e7-f458-4343-9063-10f7b3b44828")
-	)
-	(no_connect
-		(at 116.84 140.97)
-		(uuid "a6666ac9-0f37-49d2-8412-fff1414e5138")
 	)
 	(wire
 		(pts
@@ -4459,7 +4525,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 140.97) (xy 180.34 113.03)
+			(xy 181.61 139.7) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4486,6 +4552,16 @@
 			(type default)
 		)
 		(uuid "112ec996-de8e-4f21-bcc3-db282449446d")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117f0593-3f61-47bb-80e3-bcc23bb80058")
 	)
 	(wire
 		(pts
@@ -4559,23 +4635,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 60.96) (xy 73.66 60.96)
+			(xy 36.83 60.96) (xy 40.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19be9825-fd7c-448a-8deb-1121e2dc809c")
-	)
-	(wire
-		(pts
-			(xy 194.31 151.13) (xy 214.63 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a6e3f76-d957-4244-a133-e8826a9bca01")
 	)
 	(wire
 		(pts
@@ -4589,13 +4655,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 161.29) (xy 214.63 161.29)
+			(xy 157.48 146.05) (xy 191.77 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c4164ab-290e-4b95-bb38-a8f234831aba")
+		(uuid "1b9ae16b-f9e4-4c4d-83de-4759378e7931")
 	)
 	(wire
 		(pts
@@ -4649,13 +4715,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 140.97) (xy 119.38 140.97)
+			(xy 53.34 127) (xy 76.2 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2490bd05-2a3e-4756-8272-7c0ad90f3aa2")
+		(uuid "24595703-59eb-4453-b6ee-e7e58fddc0f1")
 	)
 	(wire
 		(pts
@@ -4729,13 +4795,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 140.97) (xy 151.13 140.97)
+			(xy 191.77 158.75) (xy 203.2 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36ba674d-c4f0-4ca6-9782-c588e3da26f0")
+		(uuid "3623fa8a-6519-42c8-9443-fd1e2dcb28bf")
 	)
 	(wire
 		(pts
@@ -4869,6 +4935,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 124.46) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dd412d-1f73-4fe4-aca0-4c4751e9aac8")
+	)
+	(wire
+		(pts
 			(xy 139.7 83.82) (xy 139.7 85.09)
 		)
 		(stroke
@@ -4876,16 +4952,6 @@
 			(type default)
 		)
 		(uuid "44dede0e-5fc3-4f49-9fb1-1ed1465d5d0d")
-	)
-	(wire
-		(pts
-			(xy 36.83 127) (xy 76.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d1de8c-5ef5-4e7d-804a-bc50825391a9")
 	)
 	(wire
 		(pts
@@ -5026,16 +5092,6 @@
 			(type default)
 		)
 		(uuid "6074fb2e-285e-421a-b1ce-d23b04dada62")
-	)
-	(wire
-		(pts
-			(xy 191.77 146.05) (xy 191.77 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "609157ec-3051-499d-a4cd-0f89444b3a03")
 	)
 	(wire
 		(pts
@@ -5339,6 +5395,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 156.21) (xy 195.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829672fb-dbe2-4407-a10b-b13bf9fbff51")
+	)
+	(wire
+		(pts
 			(xy 105.41 146.05) (xy 113.03 146.05)
 		)
 		(stroke
@@ -5356,6 +5422,26 @@
 			(type default)
 		)
 		(uuid "843ea29f-6999-469b-8ae6-9e43d6273350")
+	)
+	(wire
+		(pts
+			(xy 195.58 161.29) (xy 214.63 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87412ac0-f237-4caa-98c9-f06493ef34fa")
+	)
+	(wire
+		(pts
+			(xy 191.77 146.05) (xy 191.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879247ec-53a1-4944-aa9b-f779bd93cd86")
 	)
 	(wire
 		(pts
@@ -5386,6 +5472,16 @@
 			(type default)
 		)
 		(uuid "8c9d8d60-fefa-46a5-9512-214c417f4e2e")
+	)
+	(wire
+		(pts
+			(xy 203.2 158.75) (xy 203.2 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6f7b19-8d45-4e40-aaa3-18b825f46b12")
 	)
 	(wire
 		(pts
@@ -5499,13 +5595,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 146.05) (xy 119.38 146.05)
+			(xy 45.72 127) (xy 36.83 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9997747b-c36d-4a24-8b63-c780ae69294e")
+		(uuid "9a2545bf-3bab-4dc6-862b-74882c326a60")
 	)
 	(wire
 		(pts
@@ -5526,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "9b3a1e7b-8dbe-42fd-9b42-dc6725c53f31")
+	)
+	(wire
+		(pts
+			(xy 157.48 143.51) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9badb2ae-ed45-4849-9fbc-3b19435edfa4")
 	)
 	(wire
 		(pts
@@ -5569,7 +5675,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 191.77 113.03)
+			(xy 181.61 113.03) (xy 191.77 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5729,6 +5835,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 151.13) (xy 214.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b011c551-5f41-4e7b-91e1-9642783ee1b9")
+	)
+	(wire
+		(pts
 			(xy 40.64 20.32) (xy 40.64 21.59)
 		)
 		(stroke
@@ -5756,16 +5872,6 @@
 			(type default)
 		)
 		(uuid "b105b537-2933-4a6a-bad7-441fb79441c5")
-	)
-	(wire
-		(pts
-			(xy 134.62 146.05) (xy 191.77 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2085f6e-3cf1-4b5f-b606-eaef0c5ebbf4")
 	)
 	(wire
 		(pts
@@ -5829,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 153.67) (xy 191.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc79c9e0-b3aa-48df-a3ac-181ad7797fb2")
-	)
-	(wire
-		(pts
 			(xy 214.63 161.29) (xy 214.63 160.02)
 		)
 		(stroke
@@ -5869,13 +5965,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 140.97) (xy 180.34 140.97)
+			(xy 181.61 139.7) (xy 173.99 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c328e894-e6cc-450b-894d-33d2c0d01c91")
+		(uuid "c52df02f-abac-4514-989b-4f5ce8312350")
 	)
 	(wire
 		(pts
@@ -5886,6 +5982,16 @@
 			(type default)
 		)
 		(uuid "c5791e1e-fd5c-4c5c-826d-73223a80e043")
+	)
+	(wire
+		(pts
+			(xy 157.48 139.7) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a17686-5b36-44e9-946b-1fbb10d084c4")
 	)
 	(wire
 		(pts
@@ -5919,16 +6025,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 124.46) (xy 36.83 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca55a20f-7cf4-401a-81f4-f51c6b6b763b")
-	)
-	(wire
-		(pts
 			(xy 81.28 96.52) (xy 76.2 96.52)
 		)
 		(stroke
@@ -5956,6 +6052,16 @@
 			(type default)
 		)
 		(uuid "ccdcefd3-7d6b-460a-9f39-52824d5b9934")
+	)
+	(wire
+		(pts
+			(xy 40.64 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd386d04-4123-4a69-b4eb-23b48909232b")
 	)
 	(wire
 		(pts
@@ -6186,6 +6292,16 @@
 			(type default)
 		)
 		(uuid "ed2a5eb8-3cfb-40b6-97e6-56131295e9f2")
+	)
+	(wire
+		(pts
+			(xy 195.58 156.21) (xy 195.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6b3bd2-1414-4c81-9fe0-b4d1c9ef94c9")
 	)
 	(wire
 		(pts
@@ -6746,7 +6862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.6252 92.71 0)
 			(effects
 				(font
@@ -6965,7 +7081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 143.51 90.1699 0)
 			(effects
 				(font
@@ -6974,7 +7090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.6652 92.71 0)
 			(effects
 				(font
@@ -7035,7 +7151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "24k"
 			(at 39.37 121.9199 0)
 			(effects
 				(font
@@ -7044,7 +7160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 37.846 120.904 90)
 			(effects
 				(font
@@ -7343,6 +7459,76 @@
 			(project "Flyback_PCB_60Hz"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a80b3ac-b4c6-422d-b668-16fc40f7f92e")
+		(property "Reference" "C17"
+			(at 116.84 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 116.84 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 113.9952 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4db8a554-03dd-4586-9038-db8b23b025ba")
+		)
+		(pin "2"
+			(uuid "2c44e227-6f5f-46fa-ac22-932a19897c7f")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7717,7 +7903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "470pF"
 			(at 80.01 133.3499 0)
 			(effects
 				(font
@@ -7726,7 +7912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 77.1652 135.89 0)
 			(effects
 				(font
@@ -7839,43 +8025,33 @@
 		)
 	)
 	(symbol
-		(lib_id "UCC38C43DGKR:UCC38C43DGKR")
-		(at 81.28 91.44 0)
+		(lib_id "F_1_DPC817L-A-TR:DPC817L-A-TR")
+		(at 157.48 143.51 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4577f88c-c3fd-4627-9e6d-2a165f6102f3")
+		(uuid "41c59b0b-9ed1-44b9-bfa4-b800bcd39155")
 		(property "Reference" "IC4"
-			(at 96.52 83.82 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "UCC38C43DGKR"
-			(at 96.52 86.36 0)
+		(property "Value" "DPC817L-A-TR"
+			(at 138.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SOP65P490X110-8N"
-			(at 107.95 186.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/UCC38C43"
-			(at 107.95 286.36 0)
+		(property "Footprint" "Flyback:SOP254P1180X410-4N"
+			(at 123.19 238.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,17 +8060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BiCMOS Low-Power Current Mode PWM Controller"
-			(at 81.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 107.95 486.36 0)
+		(property "Datasheet" "https://www.mouser.mx/ProductDetail/Diodes-Incorporated/DPC817L-A-TR?qs=mELouGlnn3fKeXigB%252Bx6BQ%3D%3D"
+			(at 123.19 338.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,8 +8070,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-UCC38C43DGKR"
-			(at 107.95 586.36 0)
+		(property "Description" "Transistor Output Optocouplers Photo Coupler SLM-4 T&R 2K"
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.1"
+			(at 123.19 538.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,8 +8089,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC38C43DGKR?qs=zqbRmZ%252BfZD%252BXDziCZUmxYw%3D%3D"
-			(at 107.95 686.36 0)
+		(property "Mouser Part Number" ""
+			(at 123.19 638.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,8 +8099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 107.95 786.36 0)
+		(property "Mouser Price/Stock" ""
+			(at 123.19 738.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,8 +8109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "UCC38C43DGKR"
-			(at 107.95 886.36 0)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 123.19 838.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,32 +8119,30 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "baedf5e3-9c8f-4153-ba17-41f1ca912fd0")
-		)
-		(pin "6"
-			(uuid "d9594409-17ed-413c-95d5-93a69c05c8bc")
-		)
-		(pin "5"
-			(uuid "76f1b47d-c991-4ddb-bf0e-18b7436c3e1d")
-		)
-		(pin "7"
-			(uuid "ddb298a4-67c9-4d68-904b-0b94d5a320a5")
-		)
-		(pin "4"
-			(uuid "6169e822-777e-472e-bc24-eb8097bec13e")
-		)
-		(pin "8"
-			(uuid "b28ba28c-2beb-4f1d-8109-d0a6cac948dd")
+		(property "Manufacturer_Part_Number" "DPC817L-A-TR"
+			(at 123.19 938.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "59e3a52c-fa0b-449f-94c5-1655bd8c8a5c")
+			(uuid "0ca13b33-28c4-4028-95ea-6be10b212f70")
+		)
+		(pin "2"
+			(uuid "2efba3c6-1562-4801-ae72-1e4bba05690a")
+		)
+		(pin "4"
+			(uuid "748e9c1f-c215-463b-8610-9cefd948edeb")
 		)
 		(pin "3"
-			(uuid "cda3375c-c3df-44d4-bd43-ba5be46d8add")
+			(uuid "63c205f9-4e20-4cd1-a575-2a27094cf1c3")
 		)
 		(instances
-			(project "Flyback_PCB_60Hz"
+			(project ""
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
 					(reference "IC4")
 					(unit 1)
@@ -7995,7 +8169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 66.04 90.1699 0)
 			(effects
 				(font
@@ -8004,7 +8178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.516 89.154 90)
 			(effects
 				(font
@@ -8111,6 +8285,146 @@
 			(project "Flyback_PCB_60Hz"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "F_1_UCC38C43DR:UCC38C43DR")
+		(at 81.28 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5408c428-45c6-4f60-8718-f229a6c1f011")
+		(property "Reference" "IC5"
+			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "UCC38C43DR"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Flyback:SOIC127P600X175-8N"
+			(at 107.95 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/UCC38C43"
+			(at 107.95 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments UCC38C43DR, PWM Current Mode Controller, 0.2 A, 1000 kHz 8-Pin SOIC"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 107.95 486.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-UCC38C43DR"
+			(at 107.95 586.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC38C43DR?qs=zqbRmZ%252BfZD8PGQXkq%2FjeEA%3D%3D"
+			(at 107.95 686.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 107.95 786.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCC38C43DR"
+			(at 107.95 886.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d93c80f7-0f28-4c12-9b68-03ef85160f82")
+		)
+		(pin "8"
+			(uuid "74aed105-d09c-45b6-9869-2e62e946f2eb")
+		)
+		(pin "4"
+			(uuid "6cd78773-6ae7-4680-bba0-70ba8ec10e4c")
+		)
+		(pin "5"
+			(uuid "2af8b099-0a0b-4224-bee7-a15439726354")
+		)
+		(pin "2"
+			(uuid "1d515295-d253-4062-a1be-28bb65dfef45")
+		)
+		(pin "6"
+			(uuid "5878b443-67e0-4e61-b2ca-7a685966e21f")
+		)
+		(pin "3"
+			(uuid "87f32d73-0acb-4e22-a73e-f94c133b457d")
+		)
+		(pin "1"
+			(uuid "fa1f7761-e75f-4a53-a3b2-56e92df03c21")
+		)
+		(instances
+			(project ""
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "7n"
 			(at 40.64 113.0299 0)
 			(effects
 				(font
@@ -8298,7 +8612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 37.7952 115.57 0)
 			(effects
 				(font
@@ -8771,89 +9085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:4N35")
-		(at 127 143.51 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "691de0b8-ff18-48cc-9c2a-b4ad620cb527")
-		(property "Reference" "U1"
-			(at 127 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N35"
-			(at 127 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 132.08 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 127 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 127 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2bee0be7-8f4f-43d9-b781-2b4d3d1e5ca0")
-		)
-		(pin "4"
-			(uuid "6a332da3-97ec-474c-9fbb-7c20cb31b76c")
-		)
-		(pin "2"
-			(uuid "f3ab8ee8-6896-4c85-9657-3193b1cdcf4a")
-		)
-		(pin "1"
-			(uuid "db1c77b8-e7bc-4014-bb7e-bc0ee4b72282")
-		)
-		(pin "6"
-			(uuid "913be3b8-791c-433e-afe5-cd07c40c84c8")
-		)
-		(pin "5"
-			(uuid "2a06a48a-e88d-496e-8bfe-78d8fd9c8562")
-		)
-		(instances
-			(project "Flyback_PCB_60Hz"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 113.03 151.13 0)
 		(unit 1)
@@ -8872,7 +9103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 115.57 152.3999 0)
 			(effects
 				(font
@@ -8918,6 +9149,74 @@
 			(project "Flyback_PCB_60Hz"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 49.53 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8f485c-71e5-44f9-8d97-d9784266e537")
+		(property "Reference" "R27"
+			(at 49.53 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 49.53 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 49.784 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3183bc1f-8d8a-4f5b-b4d9-e0bbfa0bf3da")
+		)
+		(pin "2"
+			(uuid "f59594c2-d619-4164-8c0b-ef2634b7fad2")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9060,7 +9359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 154.94 140.97 270)
+		(at 170.18 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9069,7 +9368,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f35aa6f-1602-46ba-ae84-14cf932daaa4")
 		(property "Reference" "R19"
-			(at 154.94 134.62 90)
+			(at 170.18 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9376,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 154.94 137.16 90)
+			(at 170.18 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +9384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.686 141.986 90)
+			(at 169.926 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +9393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 140.97 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9103,7 +9402,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 154.94 140.97 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4k"
 			(at 39.37 83.8199 0)
 			(effects
 				(font
@@ -9510,7 +9809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 37.846 82.804 90)
 			(effects
 				(font
@@ -9571,7 +9870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "0.250"
 			(at 171.45 107.9499 0)
 			(effects
 				(font
@@ -9641,7 +9940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "618uF"
 			(at 93.98 49.9109 0)
 			(effects
 				(font
@@ -9650,7 +9949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 91.1352 53.34 0)
 			(effects
 				(font
@@ -9811,7 +10110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 40.64 73.6599 0)
 			(effects
 				(font
@@ -9820,7 +10119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 37.7952 76.2 0)
 			(effects
 				(font
@@ -9931,6 +10230,130 @@
 		)
 	)
 	(symbol
+		(lib_id "F_1_TL431ACLPR:TL431ACLPR")
+		(at 191.77 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8501c3d-9ad6-4c37-811a-ceb7e7903122")
+		(property "Reference" "IC6"
+			(at 172.72 157.4801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL431ACLPR"
+			(at 172.72 154.9401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TL431ACLPR"
+			(at 172.72 63.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tl431"
+			(at 172.72 -36.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1% Accuracy Adjustable Precision Shunt Regulator"
+			(at 191.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.34"
+			(at 172.72 -236.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL431ACLPR"
+			(at 172.72 -336.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL431ACLPR?qs=0le1rQK8zxqBxlVXkAYIwg%3D%3D"
+			(at 172.72 -436.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 172.72 -536.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TL431ACLPR"
+			(at 172.72 -636.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06845bc4-49b2-4d96-8136-750484deb925")
+		)
+		(pin "2"
+			(uuid "28cb0680-e32f-4e3c-8f30-2825ab4fdd1c")
+		)
+		(pin "3"
+			(uuid "fc52ce7c-3b13-40ed-bc57-e1e38b01b8c6")
+		)
+		(instances
+			(project ""
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 198.12 146.05 270)
 		(unit 1)
@@ -10017,7 +10440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "15k"
 			(at 55.88 97.7899 0)
 			(effects
 				(font
@@ -10026,7 +10449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.356 96.774 90)
 			(effects
 				(font
@@ -10221,7 +10644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 156.21 104.1399 0)
 			(effects
 				(font
@@ -10230,7 +10653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.686 103.124 90)
 			(effects
 				(font
@@ -10685,81 +11108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:TL431LP")
-		(at 191.77 151.13 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc960942-56d7-48d2-b73c-da20451620a6")
-		(property "Reference" "U2"
-			(at 189.23 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TL431LP"
-			(at 189.23 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 186.944 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 184.658 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt Regulator, TO-92"
-			(at 182.88 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d806e7c-39be-42d5-a8c0-e7d2f775696b")
-		)
-		(pin "3"
-			(uuid "6b0ac9b7-1a5f-4f1f-af26-9c09cea32d7b")
-		)
-		(pin "1"
-			(uuid "47b6036d-7404-4b17-8ae5-688ac218a9de")
-		)
-		(instances
-			(project "Flyback_PCB_60Hz"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 53.34 106.68 0)
 		(unit 1)
@@ -10778,7 +11126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 57.15 107.9499 0)
 			(effects
 				(font
@@ -10787,7 +11135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 54.3052 110.49 0)
 			(effects
 				(font
@@ -11046,75 +11394,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb31d423-da91-4563-9a1f-db9a52d3b05b")
-		(property "Reference" "C17"
-			(at 107.188 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 108.204 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.9952 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef340a6f-ab5c-4f32-bedf-8d7c8fd719cd")
-		)
-		(pin "2"
-			(uuid "3a5cf990-a771-4e55-8499-936eff790773")
-		)
-		(instances
-			(project "Flyback_PCB_60Hz"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4007")
 		(at 64.77 41.91 270)
 		(unit 1)
@@ -11303,6 +11582,128 @@
 		)
 	)
 	(symbol
+		(lib_id "F_1_R46KI310050M1K:R46KI310050M1K")
+		(at 40.64 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d35e47-8e25-4c97-bd29-50918e9ed364")
+		(property "Reference" "C23"
+			(at 44.45 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R46KI310050M1K"
+			(at 44.45 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Flyback:R46KI310050M1K"
+			(at -55.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3093_R46_X2_275_110C"
+			(at -155.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "R46 275 VAC, Film, Metallized Polypropylene, Safety, 0.1 uF, 10%, 275 VAC (X2), 560 VDC, 110C, 15mm"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.1"
+			(at -355.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-R46KI310050M1K"
+			(at -455.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/R46KI310050M1K/?qs=D0iH%252BVFiYPMp3c4CZzIXlA%3D%3D"
+			(at -555.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at -655.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "R46KI310050M1K"
+			(at -755.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd6f334-a0bf-4320-b25e-fa75d84a75bb")
+		)
+		(pin "2"
+			(uuid "d61f909f-7562-4c7d-8180-bd3160a9c659")
+		)
+		(instances
+			(project ""
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 54.61 0)
 		(unit 1)
@@ -11321,7 +11722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22u"
 			(at 132.08 55.8799 0)
 			(effects
 				(font
@@ -11391,7 +11792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47k"
 			(at 118.11 43.1799 0)
 			(effects
 				(font

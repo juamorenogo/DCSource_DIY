@@ -1,0 +1,357 @@
+(footprint "TL431ACLPR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TL431ACLPR-2")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 2.6 -0.55 0)
+		(layer "F.SilkS")
+		(uuid "a0020cae-53c8-4c2c-93e0-207502316366")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TL431ACLPR"
+		(at 2.6 -0.55 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "41b8db56-1b51-4f3f-aaaa-1a1128764fdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c17cf50-70df-40f0-9645-4b6d7ae20e2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8a44d39-f887-44cc-8202-7f8a00f90427")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.1 1.1)
+		(end -0.1 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59af4484-f20d-4f72-957f-058f1b32a682")
+	)
+	(fp_line
+		(start 0.1 1.1)
+		(end 0.1 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7766f273-072d-46f4-9037-afea31ab7038")
+	)
+	(fp_line
+		(start 0.5 -1.2)
+		(end 0.9 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6cee344-9f6e-4b35-9594-4bbdac0df695")
+	)
+	(fp_line
+		(start 0.6 0.8)
+		(end 0.885 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86aa5a5d-c84b-471f-a5b2-51d3d9ccf4be")
+	)
+	(fp_line
+		(start 0.885 1.3)
+		(end 4.3 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cff4fee2-4ba3-45b3-981d-24099ffd77e6")
+	)
+	(fp_line
+		(start 2.3 -2.4)
+		(end 2.9 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24cf4d46-2f9c-4463-a13b-c8fa0abb621f")
+	)
+	(fp_line
+		(start 4.3 1.3)
+		(end 4.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02a60ad7-c6c1-4412-b433-7a908ea70f87")
+	)
+	(fp_line
+		(start 4.7 -1.2)
+		(end 4.315 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bf59a2c-641d-4e4a-a512-080a56774c17")
+	)
+	(fp_arc
+		(start -0.1 1.1)
+		(mid 0 1)
+		(end 0.1 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c3f1236-925f-48ef-a42a-acee1b4c87c8")
+	)
+	(fp_arc
+		(start 0.1 1.1)
+		(mid 0 1.2)
+		(end -0.1 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd7ad7fb-3396-4e7c-8904-09b9ebd29d84")
+	)
+	(fp_line
+		(start -1.2 -2.9)
+		(end 6.4 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "501460eb-b4df-46a1-bb6f-226a337a53e2")
+	)
+	(fp_line
+		(start -1.2 -2.9)
+		(end 6.4 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcb44684-9465-41c0-b758-241d6b5a8e14")
+	)
+	(fp_line
+		(start -1.2 1.8)
+		(end -1.2 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "852b3bd3-6006-46f5-9646-901646ec4d78")
+	)
+	(fp_line
+		(start -1.2 1.8)
+		(end -1.2 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d81fcdd5-8965-4b32-b767-317f6bc92e64")
+	)
+	(fp_line
+		(start 6.4 -2.9)
+		(end 6.4 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23161684-6a6b-4094-a222-4393636f83c9")
+	)
+	(fp_line
+		(start 6.4 -2.9)
+		(end 6.4 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39e1eaae-8f9e-4362-838c-71bd7684220f")
+	)
+	(fp_line
+		(start 6.4 1.8)
+		(end -1.2 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48860cbe-113d-428c-a6ab-2e614fa792be")
+	)
+	(fp_line
+		(start 6.4 1.8)
+		(end -1.2 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2fb7944-dc99-4d5c-9b12-b1b20c84f9b4")
+	)
+	(fp_line
+		(start 0.2 0)
+		(end 0.885 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81b0358a-0bf0-4b42-aba2-5cb339af9704")
+	)
+	(fp_line
+		(start 0.2 0)
+		(end 5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67014bc6-1713-48a7-ac74-83b1c44d86fe")
+	)
+	(fp_line
+		(start 0.885 1.3)
+		(end 4.315 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "105bb8d5-8b01-4d99-b49b-7881455e5c25")
+	)
+	(fp_line
+		(start 4.315 1.3)
+		(end 5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "341e129b-d88d-4b8a-81eb-e1d0b7dbc674")
+	)
+	(fp_line
+		(start 5 0)
+		(end 5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a78cf2e4-f293-47dc-93c1-a83f36e72687")
+	)
+	(fp_arc
+		(start 0.2 0)
+		(mid 2.6 -2.4)
+		(end 5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f62af2fc-190b-42b1-9819-a8479afbb0a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.6 -0.55 0)
+		(layer "F.Fab")
+		(uuid "db8c389a-3f91-49b8-84e6-0a0850f68d31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b17fd25a-6b69-4bcc-9cd2-bd4ef247c739")
+	)
+	(pad "2" thru_hole circle
+		(at 2.6 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "347323a9-ffbb-4b38-8207-a0e4972c317e")
+	)
+	(pad "3" thru_hole circle
+		(at 5.2 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd92f91d-c083-4e78-9031-5b105d02886b")
+	)
+	(embedded_fonts no)
+	(model "TL431ACLPR.stp"
+		(offset
+			(xyz 2.489999972 0.1399999985 6.829999821)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+	(model "${KIPRJMOD}/3D/Flyback/TL431ACLPR.stp"
+		(offset
+			(xyz 2.6 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

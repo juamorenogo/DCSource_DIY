@@ -1772,7 +1772,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDREF"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1793,7 +1793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDREF"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1819,7 +1819,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1837,46 +1837,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDREF_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1887,7 +1851,7 @@
 					)
 				)
 			)
-			(symbol "GNDREF_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2538,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 177.8 87.63)
+			(xy 177.8 81.28) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2725,6 +2689,16 @@
 			(type default)
 		)
 		(uuid "c7d0bfc7-ca62-41af-88d2-af8c3dd61e1c")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca966ede-9a1c-401b-a33f-d72a4b303b21")
 	)
 	(wire
 		(pts
@@ -3295,138 +3269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 177.8 85.09 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30294267-9d77-4a23-b2a8-2a5306fbedea")
-		(property "Reference" "#PWR02"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 177.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e15f028-eb45-4566-bac4-a5b3f55bc7cb")
-		)
-		(instances
-			(project "PCB60hz_15"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 77.47 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39e2c2c5-a688-4e1f-b41e-2ecae22c42c8")
-		(property "Reference" "#PWR04"
-			(at 77.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 77.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7a60a03-0909-44a8-b5ed-3985169fe74b")
-		)
-		(instances
-			(project "PCB60hz_15"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 123.19 99.06 180)
 		(unit 1)
@@ -3557,6 +3399,72 @@
 			(project "PCB60hz_15"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e0fab57-5716-47de-b453-f6896bac4ed5")
+		(property "Reference" "#PWR02"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "229db3ef-5658-4564-a9fc-f6bff0f639e0")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3746,6 +3654,71 @@
 			(project "PCB60hz_15"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a50c71b-83ce-437e-806f-660d2c3bbae4")
+		(property "Reference" "#PWR03"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 159.004 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f9d4ccb-2779-4a56-a4b1-6e24eeb39366")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3953,6 +3926,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 77.47 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782889fd-f168-481b-b4f0-aeab4d5e4107")
+		(property "Reference" "#PWR04"
+			(at 77.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa15a90-9d7e-4763-94e9-6b4989f4d7f1")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84607ea3-098f-4c3c-9607-0d204b9a8c7d")
+		(property "Reference" "#PWR01"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98e57936-6dc6-4d7a-9e67-cc08d41e8079")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 212.09 114.3 0)
 		(unit 1)
@@ -4017,71 +4122,6 @@
 			(project "PCB60hz_15"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 154.94 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5fe50ee-d324-472c-b31d-7da583291102")
-		(property "Reference" "#PWR03"
-			(at 154.94 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 160.274 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 154.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28312de0-f7b3-43f2-babf-d251082b32fb")
-		)
-		(instances
-			(project "PCB60hz_15"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5162,72 +5202,6 @@
 			(project "PCB60hz_15"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 203.2 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f40e8405-51e7-4cfe-a1b8-185e41675935")
-		(property "Reference" "#PWR01"
-			(at 203.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 203.2 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 203.2 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "722c12f0-a0bb-4108-bc28-30fa015b372b")
-		)
-		(instances
-			(project "PCB60hz_15"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

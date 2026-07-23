@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.32,
-          "height": 1.98,
-          "width": 1.98
+          "drill": 1.0,
+          "height": 2.025,
+          "width": 2.025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|112760237|92910000|08fa6228-1d49-4648-b921-afca97d1e996|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -107,6 +112,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "error",
+        "text_on_edge_cuts": "error",
         "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",

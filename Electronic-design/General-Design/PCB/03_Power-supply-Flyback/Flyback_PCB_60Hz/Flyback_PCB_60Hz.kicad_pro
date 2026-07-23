@@ -107,6 +107,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "error",
+        "text_on_edge_cuts": "error",
         "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -239,7 +240,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|127000|215900|6ab60d3b-09f6-4ad7-9713-a64fe0d10359|00000000-0000-0000-0000-000000000000|/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9|/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9|",
+        ""
+      ],
+      [
+        "pin_not_connected|127000|241300|e1a794bb-917e-4291-8d95-b6c80bfbeff8|00000000-0000-0000-0000-000000000000|/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9|/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9|",
+        ""
+      ],
+      [
+        "pin_not_connected|2057400|901700|7ef6b17a-3ba3-4033-a8a3-bc55305b51fd|00000000-0000-0000-0000-000000000000|/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8|/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9/ec64f7d2-42cc-4626-8835-6e4cc2e94cb8|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -453,6 +467,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
