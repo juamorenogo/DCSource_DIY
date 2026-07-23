@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPZ1608R391ATD25
+D TDK - MPZ1608R391ATD25 - Ferrite Bead, 0603 [1608 Metric], 390 ohm, 1.2 A, MPZ Series, 0.12 ohm, +/- 25%
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz1608_en.pdf
+$ENDCMP
+#
+#End Doc Library

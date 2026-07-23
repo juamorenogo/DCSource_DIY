@@ -12,4 +12,5 @@
   (lib (name "F_1_CSRN2512FKR250")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Flyback/CSRN2512FKR250.kicad_sym")(options "")(descr ""))
   (lib (name "F_1_DPC817L-A-TR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Flyback/DPC817L-A-TR.kicad_sym")(options "")(descr ""))
   (lib (name "F_1_TL431ACLPR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Flyback/TL431ACLPR.kicad_sym")(options "")(descr ""))
+  (lib (name "F_1_MPZ1608R391ATD25")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Flyback/MPZ1608R391ATD25.kicad_sym")(options "")(descr ""))
 )

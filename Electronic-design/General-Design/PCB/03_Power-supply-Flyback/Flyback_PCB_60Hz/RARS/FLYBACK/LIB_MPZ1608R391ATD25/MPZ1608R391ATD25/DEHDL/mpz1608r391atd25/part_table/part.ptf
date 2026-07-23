@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MPZ1608R391ATD25'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "MPZ1608R391ATD25" (!) = "", "BEADC1608X95N", "Ferrite Bead Chip", "810-MPZ1608R391ATD25", "https://www.mouser.co.uk/ProductDetail/TDK/MPZ1608R391ATD25?qs=pvNC7ksEVIeI7hgKpuZ5dQ%3D%3D", "TDK - MPZ1608R391ATD25 - Ferrite Bead, 0603 [1608 Metric], 390 ohm, 1.2 A, MPZ Series, 0.12 ohm, +/- 25%", "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz1608_en.pdf", "0.95 mm"
+END_PART
+
+END.

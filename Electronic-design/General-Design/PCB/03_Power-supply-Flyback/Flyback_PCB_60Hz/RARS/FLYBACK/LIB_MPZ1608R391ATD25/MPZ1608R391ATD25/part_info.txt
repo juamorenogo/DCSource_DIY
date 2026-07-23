@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=MPZ1608R391ATD25
+PartCategory=Ferrite Bead
+PackageCategory=Ferrite Bead Chip
+PinCount=2
+Version=4.1
+Released=2021-05-17 14:36:50
+Downloaded=2026-07-23 04:05:28
+3D=Y

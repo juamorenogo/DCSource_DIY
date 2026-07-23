@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MPZ1608R391ATD25"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-17-14:32:05)
+    (mountForm default
+        (footprintRef "BEADC1608X95N")
+        (spec "System")
+    )
+)

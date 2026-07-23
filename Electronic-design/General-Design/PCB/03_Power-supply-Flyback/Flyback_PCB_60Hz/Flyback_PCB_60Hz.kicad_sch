@@ -765,6 +765,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -4105,26 +4254,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Añadir Ferrita a la alimentacion\n"
-		(exclude_from_sim no)
-		(at 97.536 87.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e3cf78e-9b44-435c-8d97-600ded041e8c")
-	)
-	(text "Diseñar simbolo de MOV\n"
-		(exclude_from_sim no)
-		(at 53.34 37.846 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "85126acc-e4cf-4c6c-83cc-4b0757a3accc")
-	)
 	(text "Revisar Tierras. \nProbablemente la Tierra AC del flyback aislada.\nY gnd salida DC = gnd alimentacion\n\n"
 		(exclude_from_sim no)
 		(at 114.046 168.656 0)
@@ -4164,12 +4293,6 @@
 		(uuid "05f85285-c890-42ac-949e-b3dfbaaac0e9")
 	)
 	(junction
-		(at 120.65 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08430e48-467e-481d-8c96-481000a2552e")
-	)
-	(junction
 		(at 233.68 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4194,13 +4317,19 @@
 		(uuid "13ed7788-7f04-4ab1-9fa5-f8636ed5c2ba")
 	)
 	(junction
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7ddf59-89a3-4b6f-b03a-5287f29cc933")
+	)
+	(junction
 		(at 64.77 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "259578e7-0f0d-46c9-927f-47b5341c3a9c")
 	)
 	(junction
-		(at 129.54 83.82)
+		(at 144.78 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26112260-d36d-4446-8d9b-265bd011dbdd")
@@ -4440,16 +4569,16 @@
 		(uuid "e806e74f-4f35-45d4-93ad-e78aaa4c00ff")
 	)
 	(junction
-		(at 115.57 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e97eb181-5f9d-4507-8967-80ab7da307dd")
-	)
-	(junction
 		(at 40.64 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eefd7eb0-033d-49f4-8ea5-d1846f40a846")
+	)
+	(junction
+		(at 135.89 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f13ceb56-51a0-4ede-ba67-792c8dd54ff4")
 	)
 	(junction
 		(at 214.63 161.29)
@@ -4871,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 139.7 93.98)
+			(xy 135.89 93.98) (xy 154.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4971,13 +5100,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 139.7 85.09)
+			(xy 154.94 83.82) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44dede0e-5fc3-4f49-9fb1-1ed1465d5d0d")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cbda45-59bf-468d-b0e5-f9733f06b773")
 	)
 	(wire
 		(pts
@@ -5681,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 154.94 50.8)
+			(xy 153.67 50.8) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5731,7 +5870,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 139.7 92.71)
+			(xy 154.94 93.98) (xy 154.94 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5741,7 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 139.7 83.82)
+			(xy 144.78 83.82) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5841,17 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 120.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9050753-beac-43eb-8195-3fc8c4cb2ec8")
-	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 129.54 83.82)
+			(xy 144.78 80.01) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5871,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 92.71) (xy 120.65 93.98)
+			(xy 135.89 92.71) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5991,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 129.54 83.82)
+			(xy 135.89 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6141,6 +6270,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3e682a-feea-4f64-a494-752953e51d1b")
+	)
+	(wire
+		(pts
 			(xy 24.13 86.36) (xy 24.13 90.17)
 		)
 		(stroke
@@ -6178,16 +6317,6 @@
 			(type default)
 		)
 		(uuid "cd573568-7cfc-49e6-af35-7222359a7159")
-	)
-	(wire
-		(pts
-			(xy 163.83 50.8) (xy 162.56 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc88974-703a-4c67-ac3c-0bfc362b74a3")
 	)
 	(wire
 		(pts
@@ -6241,7 +6370,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 120.65 85.09)
+			(xy 135.89 83.82) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6542,73 +6671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 149.86 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "083f1d9c-ce27-44d5-a59b-f0b003718743")
-		(property "Reference" "R6"
-			(at 149.352 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 148.844 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.114 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e671020-02ca-41a0-9443-95b0df615802")
-		)
-		(pin "2"
-			(uuid "5e00a506-ec22-486b-8d75-e6f69f7f9cbc")
-		)
-		(instances
-			(project "Flyback_PCB_60Hz"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 63.5 74.93 0)
 		(unit 1)
@@ -6698,7 +6760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "750811351"
+		(property "Footprint" "Flyback:750811351"
 			(at 204.47 126.67 0)
 			(effects
 				(font
@@ -7365,7 +7427,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 88.9 0)
+		(at 154.94 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7374,7 +7436,7 @@
 		(fields_autoplaced yes)
 		(uuid "19680193-591d-4f6f-8fd7-368b37547cee")
 		(property "Reference" "C19"
-			(at 143.51 87.6299 0)
+			(at 158.75 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7445,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 143.51 90.1699 0)
+			(at 158.75 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7454,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 140.6652 92.71 0)
+			(at 155.9052 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 88.9 0)
+			(at 154.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7472,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 88.9 0)
+			(at 154.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7709,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "47k"
 			(at 95.25 139.7 90)
 			(effects
 				(font
@@ -7655,7 +7717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 95.504 142.494 90)
 			(effects
 				(font
@@ -7723,7 +7785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 57.15 50.038 90)
 			(effects
 				(font
@@ -7773,10 +7835,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a80b3ac-b4c6-422d-b668-16fc40f7f92e")
 		(property "Reference" "C17"
-			(at 116.84 74.9299 0)
+			(at 107.696 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +7846,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 116.84 77.4699 0)
+			(at 106.934 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7964,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 129.54 81.28 180)
+		(at 144.78 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7912,7 +7973,7 @@
 		(fields_autoplaced yes)
 		(uuid "30c08bce-2c86-4098-9c06-ecaf6482ff41")
 		(property "Reference" "#PWR07"
-			(at 129.54 74.93 0)
+			(at 144.78 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,7 +7982,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 129.54 76.2 0)
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +7990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 81.28 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +7999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 81.28 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +8008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 129.54 81.28 0)
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,74 +9016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable_US")
-		(at 146.05 96.52 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e87bb40-2219-405d-9dae-e47e09928415")
-		(property "Reference" "R8"
-			(at 146.0119 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Variable_US"
-			(at 146.0119 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Variable resistor, US symbol"
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7be471f6-ec45-4791-b9c4-8b3a84ce9d69")
-		)
-		(pin "2"
-			(uuid "a3ce4bc7-85bc-4ea2-8d0b-207de600cd75")
-		)
-		(instances
-			(project "Flyback_PCB_60Hz"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 214.63 156.21 0)
 		(unit 1)
@@ -9093,6 +9086,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 146.05 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b5ddfa-0ae0-482c-b18c-15b5efe933e4")
+		(property "Reference" "R28"
+			(at 146.05 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15"
+			(at 146.05 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 146.304 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4210e38-21f4-4ac1-8f28-bfec982cfc31")
+		)
+		(pin "2"
+			(uuid "17bed857-4983-419f-a276-571d4eb2fc6a")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Variable_US")
 		(at 107.95 143.51 90)
 		(unit 1)
@@ -9110,7 +9171,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Variable_US"
+		(property "Value" "200k"
 			(at 107.9119 138.43 90)
 			(effects
 				(font
@@ -9118,7 +9179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 107.95 145.288 90)
 			(effects
 				(font
@@ -9412,7 +9473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 114.046 151.384 90)
 			(effects
 				(font
@@ -9524,7 +9585,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener_Filled")
-		(at 120.65 88.9 90)
+		(at 135.89 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9533,7 +9594,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e0bcbaa-2d0a-4cc1-a3d4-215f47ffb2c0")
 		(property "Reference" "D10"
-			(at 123.19 87.6299 90)
+			(at 138.43 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +9603,7 @@
 			)
 		)
 		(property "Value" "D_Zener_Filled"
-			(at 123.19 90.1699 90)
+			(at 138.43 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +9612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 88.9 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 88.9 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9630,7 @@
 			)
 		)
 		(property "Description" "Zener diode, filled shape"
-			(at 120.65 88.9 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9672,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 109.474 70.104 0)
+			(at 110.236 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9804,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Variable_US"
+		(property "Value" "20k"
 			(at 106.6419 121.92 90)
 			(effects
 				(font
@@ -9751,7 +9812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 106.68 128.778 90)
 			(effects
 				(font
@@ -10159,10 +10220,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ce093bb-dd08-43cd-b4e2-0389d618ed92")
 		(property "Reference" "R21"
-			(at 171.45 105.4099 0)
+			(at 164.084 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10231,7 @@
 			)
 		)
 		(property "Value" "0.250"
-			(at 171.45 107.9499 0)
+			(at 162.306 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +10239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Flyback:RESC6432X70N"
 			(at 169.926 106.934 90)
 			(effects
 				(font
@@ -10462,6 +10522,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 125.73 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ece3ef-e728-4cde-861b-ef9d46d7f6c0")
+		(property "Reference" "FB1"
+			(at 125.6792 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 125.6792 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Flyback:BEADC1608X95N"
+			(at 125.73 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ae76e1-9b4e-4b18-99ac-2305a4b34833")
+		)
+		(pin "2"
+			(uuid "c92c5c01-d2a8-4765-8be9-75ee418684ba")
+		)
+		(instances
+			(project ""
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 101.6 146.05 90)
 		(mirror x)
@@ -10556,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TL431ACLPR"
+		(property "Footprint" "Flyback:TL431ACLPR"
 			(at 172.72 63.83 0)
 			(effects
 				(font
@@ -10809,7 +10937,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 129.54 123.19 90)
 			(effects
 				(font
@@ -10817,7 +10945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 129.794 125.984 90)
 			(effects
 				(font
@@ -11162,74 +11290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable_US")
-		(at 158.75 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d49108ee-c32f-4598-bdd2-0c432bcd3b81")
-		(property "Reference" "R20"
-			(at 158.7119 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Variable_US"
-			(at 158.7119 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Variable resistor, US symbol"
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47f43195-e43d-435f-aef6-cc9e0b71f19e")
-		)
-		(pin "2"
-			(uuid "7ba0e714-c5af-4f10-90d8-ec8364121ac1")
-		)
-		(instances
-			(project "Flyback_PCB_60Hz"
-				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 76.2 137.16 0)
 		(unit 1)
@@ -11320,7 +11380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D15.5mm_W4.4mm_P7.5mm"
 			(at 46.99 46.482 90)
 			(effects
 				(font
@@ -11951,7 +12011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 129.2352 58.42 0)
 			(effects
 				(font
@@ -11995,6 +12055,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 149.86 50.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2d91a3e-9911-4b7c-8be3-2b53572099bf")
+		(property "Reference" "R29"
+			(at 149.86 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 149.86 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 150.114 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728e512b-6161-441e-88eb-6d326400e19f")
+		)
+		(pin "2"
+			(uuid "d83a274d-10d1-4bec-a03f-a977f978c25d")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 115.57 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12021,7 +12149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 116.586 42.164 90)
 			(effects
 				(font

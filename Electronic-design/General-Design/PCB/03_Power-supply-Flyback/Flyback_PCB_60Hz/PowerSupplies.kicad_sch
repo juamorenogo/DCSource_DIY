@@ -3088,7 +3088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 221.996 127.254 90)
 			(effects
 				(font
@@ -4496,14 +4496,13 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X110-6N"
+		(property "Footprint" "Footprints_Proyecto:SOT95P280X110-6N"
 			(at 201.93 182.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps54302"
@@ -5097,7 +5096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 221.996 136.144 90)
 			(effects
 				(font
