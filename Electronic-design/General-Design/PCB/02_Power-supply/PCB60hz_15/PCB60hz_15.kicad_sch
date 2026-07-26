@@ -3585,7 +3585,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 135.636 81.788 0)
 			(effects
 				(font
@@ -4448,7 +4448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "220nF"
 			(at 136.398 76.454 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k- Aunque medido da como 90k creo"
 			(at 226.06 105.4099 0)
 			(effects
 				(font
