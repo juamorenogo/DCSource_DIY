@@ -1,4 +1,4 @@
-24762370814472919
+24773081325149144
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57456,6 +57456,13 @@ emi filter
 5
 5
 Flyback
+2N3906BU
+2N3906BU-3
+Transistor BJT PNP
+0
+3
+3
+Flyback
 750811351
 750811351-2
 Transformer
@@ -57469,6 +57476,27 @@ Ferrite Bead
 0
 2
 2
+Flyback
+DIOM5235X244N
+SMB/DO-214AA_2023
+Diode
+0
+2
+2
+Flyback
+KBPC610
+15.2mm x 15.2mm x 6.3mm
+Bridge Rectifier
+0
+4
+4
+Flyback
+NPN_SOT95P240X110-3N
+SOT23_2022
+Transistor BJT NPN
+0
+3
+3
 Flyback
 R46KI310050M1K
 R46KI310050M1K-2
@@ -57497,6 +57525,20 @@ Integrated Circuit
 0
 4
 4
+Flyback
+STPST5H100SF
+STPST5H100SF-3
+Schottky Diode with Dual Anode
+0
+3
+3
+Flyback
+TB002-500-02BE
+TB002-500-02BE
+Connector
+0
+2
+2
 Flyback
 TL431ACLPR
 TL431ACLPR-2
