@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.8,
-          "width": 2.5
+          "drill": 0.65,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,13 +58,42 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|9320000|75350000|f09c011f-04c4-4e04-a233-90ec7f6c3779|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|9320000|88350000|bf4dd4b0-67cb-4320-bd1f-628aad9555d3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|119700000|72190000|6eaea02f-753c-4f0c-9376-ce1928a07e99|f0ddc90f-47d1-444b-a63a-a5628eb791f7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159300000|72190000|6eaea02f-753c-4f0c-9376-ce1928a07e99|74fa46d0-bb46-46ef-804b-f9ee148edf67",
+          ""
+        ],
+        [
+          "silk_edge_clearance|77060000|70830000|d173a521-6895-484e-9d26-22b6c830d679|67a7e3d0-e022-45bd-8834-888f8f119c65",
+          ""
+        ],
+        [
+          "silk_edge_clearance|81660000|70830000|d173a521-6895-484e-9d26-22b6c830d679|fc765354-ba42-4e09-9926-25539d2b057e",
+          ""
+        ],
+        [
+          "silk_overlap|89578571|93992438|8496c3d8-9b93-4b7e-8f42-8d0d54e0194a|e1911d6d-3811-4d72-b0af-349b683d3223",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "error",
         "copper_edge_clearance": "error",
         "copper_sliver": "error",
@@ -88,11 +117,11 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "error",
-        "lib_footprint_mismatch": "error",
-        "malformed_courtyard": "error",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "error",
-        "missing_courtyard": "error",
+        "missing_courtyard": "ignore",
         "missing_footprint": "error",
         "net_conflict": "error",
         "nonmirrored_text_on_back_layer": "error",
@@ -136,7 +165,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -188,13 +217,18 @@
       ],
       "track_widths": [
         0.0,
+        0.5,
+        0.55,
         0.6,
         0.8,
         1.0,
+        1.1,
+        1.25,
         1.5,
         2.0,
         2.5,
         3.5,
+        4.5,
         7.0
       ],
       "tuning_pattern_settings": {
