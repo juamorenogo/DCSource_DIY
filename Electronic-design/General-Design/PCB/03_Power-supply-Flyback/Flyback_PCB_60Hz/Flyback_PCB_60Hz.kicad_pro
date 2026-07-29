@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 3.1,
+          "height": 3.1,
+          "width": 3.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -73,14 +73,6 @@
         ],
         [
           "silk_edge_clearance|159300000|72190000|6eaea02f-753c-4f0c-9376-ce1928a07e99|74fa46d0-bb46-46ef-804b-f9ee148edf67",
-          ""
-        ],
-        [
-          "silk_edge_clearance|77060000|70830000|d173a521-6895-484e-9d26-22b6c830d679|67a7e3d0-e022-45bd-8834-888f8f119c65",
-          ""
-        ],
-        [
-          "silk_edge_clearance|81660000|70830000|d173a521-6895-484e-9d26-22b6c830d679|fc765354-ba42-4e09-9926-25539d2b057e",
           ""
         ],
         [
@@ -126,7 +118,7 @@
         "net_conflict": "error",
         "nonmirrored_text_on_back_layer": "error",
         "npth_inside_courtyard": "error",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "error",

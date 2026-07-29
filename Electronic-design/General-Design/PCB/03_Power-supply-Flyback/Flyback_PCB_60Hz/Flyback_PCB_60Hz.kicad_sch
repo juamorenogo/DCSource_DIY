@@ -4498,16 +4498,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Este RC si debe soportar altos voltajes. Aprox 1kV\n\nR9 disipa aprox: 0.5  a 1 W"
-		(exclude_from_sim no)
-		(at 121.412 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f7a0850-f17c-4aad-a288-91a78ea651be")
-	)
 	(text "Las resistencias 1206 soportan (R < 1k):\n	0.25W de disipacion. \n	200V max de nominal. \n	400\nV de trasientes cortos.\n\n	"
 		(exclude_from_sim no)
 		(at 237.49 85.852 0)
@@ -4650,12 +4640,6 @@
 		(uuid "3762ced8-8d05-48b6-ae76-a81a7d98aaef")
 	)
 	(junction
-		(at 140.97 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d17c7ee-9e20-4919-9d65-c953c0381919")
-	)
-	(junction
 		(at 113.03 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4698,7 +4682,7 @@
 		(uuid "5a330f32-f531-4ca3-938b-82428b7593b7")
 	)
 	(junction
-		(at 140.97 24.13)
+		(at 140.97 13.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63e2315e-88b3-4e58-a497-aaf2918a7580")
@@ -4780,6 +4764,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b299b24a-ddd1-4c91-be0c-7a58c97f9725")
+	)
+	(junction
+		(at 140.97 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3f5ad0f-3839-4887-9b06-cc73e3cc88be")
 	)
 	(junction
 		(at 24.13 77.47)
@@ -5065,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 24.13) (xy 168.91 24.13)
+			(xy 161.29 13.97) (xy 168.91 13.97)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 24.13) (xy 140.97 24.13)
+			(xy 128.27 13.97) (xy 140.97 13.97)
 		)
 		(stroke
 			(width 0)
@@ -5175,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 24.13) (xy 146.05 24.13)
+			(xy 140.97 13.97) (xy 146.05 13.97)
 		)
 		(stroke
 			(width 0)
@@ -5292,6 +5282,16 @@
 			(type default)
 		)
 		(uuid "3623fa8a-6519-42c8-9443-fd1e2dcb28bf")
+	)
+	(wire
+		(pts
+			(xy 140.97 22.86) (xy 140.97 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36840da0-db9f-4aac-907a-0baf2e513580")
 	)
 	(wire
 		(pts
@@ -5625,16 +5625,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 34.29) (xy 140.97 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6074fb2e-285e-421a-b1ce-d23b04dada62")
-	)
-	(wire
-		(pts
 			(xy 24.13 67.31) (xy 49.53 67.31)
 		)
 		(stroke
@@ -5645,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 24.13) (xy 168.91 41.91)
+			(xy 168.91 13.97) (xy 168.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5975,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 25.4) (xy 128.27 24.13)
+			(xy 128.27 15.24) (xy 128.27 13.97)
 		)
 		(stroke
 			(width 0)
@@ -6295,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 24.13) (xy 140.97 25.4)
+			(xy 140.97 13.97) (xy 140.97 15.24)
 		)
 		(stroke
 			(width 0)
@@ -6355,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 34.29) (xy 177.8 34.29)
+			(xy 128.27 34.29) (xy 140.97 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6575,16 +6565,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 34.29) (xy 140.97 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca18066a-85c9-4301-98df-44fa9ebefb5a")
-	)
-	(wire
-		(pts
 			(xy 36.83 90.17) (xy 36.83 91.44)
 		)
 		(stroke
@@ -6655,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 34.29) (xy 128.27 33.02)
+			(xy 128.27 34.29) (xy 128.27 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6682,6 +6662,16 @@
 			(type default)
 		)
 		(uuid "d388393c-d892-4206-8c5f-bbfb2327cbdd")
+	)
+	(wire
+		(pts
+			(xy 140.97 33.02) (xy 140.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c8988b-8b79-4471-b63f-2fa15aee1c33")
 	)
 	(wire
 		(pts
@@ -6722,6 +6712,16 @@
 			(type default)
 		)
 		(uuid "d5ce0b19-0ec8-4526-8a9b-6e21033824da")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b96cf1-faf5-492d-9edd-43260da56142")
 	)
 	(wire
 		(pts
@@ -7480,7 +7480,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 140.97 29.21 0)
+		(at 140.97 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7489,7 +7489,7 @@
 		(fields_autoplaced yes)
 		(uuid "1938a39f-988f-4882-a04c-6d5c5cfbcd14")
 		(property "Reference" "R9"
-			(at 143.51 27.9399 0)
+			(at 143.51 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,8 +7497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
-			(at 143.51 30.4799 0)
+		(property "Value" "4k"
+			(at 143.51 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,8 +7506,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm"
-			(at 141.986 29.464 90)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
+			(at 141.986 19.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 29.21 0)
+			(at 140.97 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +7525,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 140.97 29.21 0)
+			(at 140.97 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8225,7 @@
 	)
 	(symbol
 		(lib_id "F_1_ES3JB-HF:ES3JB-HF")
-		(at 146.05 24.13 0)
+		(at 146.05 13.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8234,7 +8234,7 @@
 		(fields_autoplaced yes)
 		(uuid "32d3353a-c03f-4c00-b500-e8e6182033e1")
 		(property "Reference" "D14"
-			(at 153.67 16.51 0)
+			(at 153.67 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8242,7 @@
 			)
 		)
 		(property "Value" "ES3JB-HF"
-			(at 153.67 19.05 0)
+			(at 153.67 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8250,7 @@
 			)
 		)
 		(property "Footprint" "Flyback:DIOM5235X244N"
-			(at 157.48 121.59 0)
+			(at 157.48 111.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8260,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/QW-JS017%20ES3AB-HF%20Thru.%20ES3JB-HF%20RevA.pdf"
-			(at 157.48 221.59 0)
+			(at 157.48 211.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8270,7 @@
 			)
 		)
 		(property "Description" "Rectifiers RECTIFIER SUPER FAST RECOVERY 600V 3A SMB"
-			(at 146.05 24.13 0)
+			(at 146.05 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8279,7 @@
 			)
 		)
 		(property "Height" "2.44"
-			(at 157.48 421.59 0)
+			(at 157.48 411.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8289,7 @@
 			)
 		)
 		(property "Mouser Part Number" "750-ES3JB-HF"
-			(at 157.48 521.59 0)
+			(at 157.48 511.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8299,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/ES3JB-HF?qs=hd1VzrDQEGh59SJw6leQSQ%3D%3D"
-			(at 157.48 621.59 0)
+			(at 157.48 611.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8309,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Comchip Technology"
-			(at 157.48 721.59 0)
+			(at 157.48 711.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8319,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ES3JB-HF"
-			(at 157.48 821.59 0)
+			(at 157.48 811.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8669,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 128.27 29.21 0)
+		(at 128.27 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8678,7 +8678,7 @@
 		(fields_autoplaced yes)
 		(uuid "4120c592-6de7-4947-8932-233609c392e2")
 		(property "Reference" "C20"
-			(at 132.08 27.9399 0)
+			(at 132.08 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +8687,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 132.08 30.4799 0)
+			(at 132.08 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8696,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 129.2352 33.02 0)
+			(at 129.2352 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 29.21 0)
+			(at 128.27 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8714,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 128.27 29.21 0)
+			(at 128.27 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,6 +10206,76 @@
 			(project "Flyback_PCB_60Hz"
 				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 140.97 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d68bb7d-838f-41e3-bc32-b3c1a28892cd")
+		(property "Reference" "R6"
+			(at 143.51 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k"
+			(at 143.51 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
+			(at 141.986 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15b1f7a6-f4ac-4402-85e2-319fc5a7ef2e")
+		)
+		(pin "2"
+			(uuid "162a24ea-99f8-4f9f-ab90-eeaf5bad2d28")
+		)
+		(instances
+			(project "Flyback_PCB_60Hz"
+				(path "/e667b3b5-58bf-48ce-ba71-7e90a3c6a4c9"
+					(reference "R6")
 					(unit 1)
 				)
 			)
